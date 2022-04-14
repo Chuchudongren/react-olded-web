@@ -1,0 +1,19 @@
+.sendCodeBtn{
+    background-color: #a0c9c1;
+    border-radius: 5px;
+    width: 240px;
+    height: 60px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+}
+.sendCodeBtn:hover{
+    border: 1px solid #a0c9c1;
+}
+
+.noReg{
+    float: right;
+    margin: 0px 30px 0 0 ;
+    font-size: 16px;
+    color: rgb(156, 156, 156);
+}

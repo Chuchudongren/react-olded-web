@@ -1,0 +1,166 @@
+.hoard_bg .container{
+    padding:0;
+}
+/* 头部标题 */
+.hoard_title{
+    height: 140px;
+    overflow: hidden;
+}
+.hoard_title img{
+    display: block;
+    width: 540px;
+    height: 120px;
+    background-image: linear-gradient(to right,rgb(255, 227, 227),rgb(210, 255, 204));
+    padding: 20px;
+    border-radius: 20px;
+    margin: 15px auto;
+    object-fit: cover;
+}
+/* 正文 */
+.hoard_section{
+    height: 1350px;
+    background-color: rgba(199, 213, 250, 0.596);
+}
+/* 左侧菜单 */
+.hoard_menu{
+    float: left;
+    width: 250px;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgb(158, 210, 255),rgba(205, 232, 255, 0.507),rgba(134, 198, 255, 0.747));
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+@keyframes hoverMenu {
+    0%{
+        font-size: 40px;
+    }
+    50%{
+        font-size: 45px;
+    }
+    100%{
+        font-size: 40px;
+    }
+}
+.hoard_menu li{
+    width: 100%;
+    height: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    background-image: linear-gradient(to bottom, rgb(255, 217, 217),rgb(245, 213, 253));
+}
+.hoard_menu li:hover{
+    cursor: pointer;
+    color: red;
+    animation: hoverMenu 0.5s linear 10 alternate;
+}
+.hoard_menu .menu_active{
+    background-image: linear-gradient(to bottom, rgb(255, 115, 115),rgb(255, 166, 154));
+}
+.hoard_menu .menu_active:hover{
+    cursor: pointer;
+    color: #111;
+    animation: none;
+    background-color: rgb(241, 226, 141);
+}
+/* 右侧 */
+.hoard_main{
+    height: 100%;
+}
+.hoard_nav{
+    height: 80px;
+    background-color: rgb(236, 236, 236);
+}
+.hoard_nav span{
+    float: left;
+    width: 150px;
+    height: 70px;
+    margin: 10px 0 0 5px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 70px;
+    border-radius: 5px;
+}
+.hoard_nav span:last-child{
+    float: right;
+    width: 240px;
+    height: 60px;
+    font-size: 36px;
+    margin: 10px 50px 0 0;
+    line-height: 60px;
+    background-color: rgb(181, 220, 255);
+}
+.hoard_nav span:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.hoard_nav .nav_active{
+    background-color: rgb(180, 244, 255);
+}
+.hoard_nav .nav_active:hover{
+    cursor:normal;
+    background-color: rgb(180, 244, 255);
+}
+/* 右侧 */
+.hoard_list{
+    float: right;
+}
+.hoard_list .ant-table{
+    width: 920px !important;
+}
+.hoard_list .ant-table-thead tr th{
+    background-color: transparent;
+}
+.hoard_list .ant-table{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom,rgba(169, 180, 252, 0.719),rgba(198, 205, 250, 0.76),rgba(122, 140, 255, 0.438));
+    /* background-color: rgba(225, 229, 255, 0.76); */
+}
+
+.hoard_list .ant-table-tbody tr .ant-table-cell-row-hover{
+    background-color: rgba(169, 180, 252, 0.425) !important;
+}
+.hoard_list  .ant-table-thead tr th:nth-child(1){
+    width: 400px !important;
+    font-size: 30px !important;
+}
+.hoard_list  .ant-table-thead tr th:nth-child(2){
+    width: 150px !important;
+    font-size: 24px !important;
+}
+.hoard_list  .ant-table-thead tr th:nth-child(3){
+    width: 60px !important;
+    font-size: 20px !important;
+}
+.hoard_list  .ant-table-thead tr th:nth-child(4){
+    width: 80px !important;
+    font-size: 20px !important;
+}
+.hoard_list  .ant-table-row{
+    font-size: 24px;
+}
+
+
+/* 分页的样式 */
+.hoard_list .ant-pagination{
+    margin-right: 20px !important;
+}
+.hoard_list .ant-pagination li {
+    background-color: rgb(254, 255, 233);
+    width: 65px;
+    height: 65px;
+    line-height: 60px;
+}
+.hoard_list .ant-pagination li a{
+    font-size: 30px;
+}
+.hoard_list .ant-pagination .ant-pagination-item-link{
+    background-color: rgba(174, 255, 127, 0);
+}
+.hoard_list .ant-pagination .ant-pagination-item-link span svg{
+    width: 40px;
+    height: 40px;
+    margin: 12px 0 0 0;
+}

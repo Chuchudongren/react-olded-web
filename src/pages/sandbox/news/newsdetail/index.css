@@ -1,0 +1,146 @@
+.news_detail_bg{
+    position: relative;
+    width: 100%;
+    height: 1933px;
+}
+.news_detail_goback{
+    height: 80px;
+    width: 240px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_detail_goBack.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 40px 0 60px 20px;
+}
+.news_detail_goback:hover{
+    cursor: pointer;
+}
+/* 右侧按钮栏目 */
+.news_detail_right_btn{
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    width: 100px;
+    height: 400px;
+}
+.news_detail_right_btn div{
+    float: left ;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+} 
+.news_detail_right_btn div:hover{
+    cursor: pointer;
+}
+
+.news_detail_icon-good{
+    font-size: 60px;
+    margin: 7px 0px 0 10px;
+}
+.news_detail_icon-good_ture{
+    float: left ;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color:  rgb(238, 83, 83);
+}
+.news_detail_icon-collection{
+    margin: 1px 0px 0px 2px;
+    font-size: 75px;
+}
+.news_detail_icon-collection_ture{
+    float: left ;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color:  rgb(238, 83, 83);
+}
+.news_detail_icon-pinglun{
+    font-size: 50px;
+    margin: 18px 0px 0px 15px;
+}
+.news_detail_icon-zhuanfa{
+    margin: 5px 0px 0px 10px;
+    font-size: 60px;
+}
+/* 新闻标题 */
+.news_detail_title{
+    top: 160px;
+    left: 100px;
+    position: absolute;
+    width: 1160px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: center;
+    color: rgb(175, 7, 7);
+    border-radius: 10px;
+
+}
+/* 点赞 收藏 评论 */
+.news_detail_info{
+    margin: 240px 0 0px 0;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+.news_detail_info_like{
+    display: inline-block;
+    margin-left: 300px;
+}
+.news_detail_info_collect{
+    display: inline-block;
+    margin-left:200px
+}
+.news_detail_info_comment{
+    display: inline-block;
+    margin-left:200px
+
+}
+.news_detail_info div div{ 
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_detail_info.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    vertical-align:bottom;
+    margin-right: 10px;
+}
+.news_detail_info_like div{
+    background-position:0 0 ;
+}
+.news_detail_info .news_detail_info_collect div{
+    background-position:-105px 0;
+}
+
+.news_detail_info .news_detail_info_comment div{
+    background-position: -220px 0 ;
+}
+
+
+/* 新闻主体 */
+.news_detail_content_body{
+    margin: 190px 0px 0 92px;
+    width: 1335px;
+    min-height: 800px;
+    padding: 30px;
+    font-size: 26px;
+}
+.news_detail_content_footer{
+    margin: 20px 0px 0 92px;
+    width: 1335px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.news_detail_content_time{
+    margin-left: 30px;
+    float: left;
+}
+.news_detail_content_source{
+    margin-right: 30px;
+    float: right;
+}

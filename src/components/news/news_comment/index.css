@@ -1,0 +1,84 @@
+.go_login_title{
+    font-size: 50px;
+    color: rgb(0, 174, 255);
+}
+
+/* yonghu 用户登录 */
+.news_comment_textarea{
+    margin: 10px 0 0 20px;
+    width: 500px;
+    height: 150px;
+    border: 2px solid rgb(165, 162, 162);
+    border-radius:5px;
+    font-size: 20px;
+}
+.news_comment_button{
+    float: right;
+    display: block;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+    background-color: rgb(107, 134, 175);
+    border-radius:5px;
+}
+
+/* 评论部分 */
+.news_comment_list{
+    width: 500px;
+    height: 390px;
+    border: 2px solid rgb(121, 118, 118);
+    margin: 60px 0 0 20px;
+    border-radius: 5px;
+    background-color: rgb(252, 235, 235);
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+}
+
+.news_comment_list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.news_comment_list::-webkit-scrollbar-thumb {
+    background: rgb(226, 94, 33);
+    background-clip: padding-box;
+}
+
+.news_comment_list_title{
+    display: block;
+    font-size: 30px;
+    margin:10px 0 0 10px;
+}
+.news_comment_scorll{
+    width: 100%;
+    min-height: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}   
+.news_comment_item{
+    width: 480px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.705);
+}
+.news_comment_name{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.news_comment_text{
+    resize:none;
+    margin-top: 10px;
+    width: 25em;
+    height: 6em;
+    border: 1px solid blue;
+    border-radius:10px;
+    font-size: 18px;
+    padding: 0.5em;
+}
+.news_comment_text::-webkit-scrollbar {
+    display: none;
+}

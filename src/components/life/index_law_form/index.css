@@ -1,0 +1,96 @@
+.ant-modal-content{
+    width: 900px;
+    left: -150px;
+}
+.ant-modal-close-icon svg{
+    margin-top:10px;
+    font-size: 30px;
+}
+.ant-modal-title{
+    font-size: 30px !important;
+}
+
+.ant-form-item-control-input-content input{
+    height: 50px !important;
+    font-size: 30px;
+    line-height: 50px !important;
+}
+.ant-form-item-label{
+    line-height: 50px !important;
+}
+.ant-form-item-required{
+    font-size: 30px !important;
+
+}
+.ant-select span{
+    font-size: 25px;
+}
+
+.ant-select-selection-item{
+    font-size: 30px !important;
+}
+.ant-select-selection-search input{
+    line-height: 50px !important;
+}
+.ant-select-selector{
+    height: 50px !important;
+    padding: 10px 0 0 10px !important;
+    
+    line-height: 50px !important;
+}
+
+.ant-select-clear{
+    display: none !important;
+}
+.province_list{
+    font-size: 28px !important;
+}
+.ant-select-item-option-content{
+    font-size: 26px !important;
+}
+.ant-form-item-label label{
+    font-size: 30px !important;
+}
+
+.ant-form-item-control-input-content textarea{
+    height: 120px !important;
+    font-size: 20px;
+    resize:none;
+}
+.ant-radio-group{
+    height: 50px;
+    line-height: 50px;
+}
+.ant-radio-inner{
+    border: 1px solid red !important;
+    font-size: 20px !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.ant-radio-wrapper{
+    font-size: 30px !important;
+}
+
+.ant-form-item-explain-error{
+    font-size: 20px;
+}
+
+.ant-btn {
+    display: none !important;
+}
+
+.law_form_submit{
+    float: right;
+    width: 200px;
+    height: 50px;
+    margin: 10px 30px 0 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 28px;
+}
+.law_form_submit:hover{
+    background-color: red;
+    color: #FFF;
+    transition: background-color 1s;
+}

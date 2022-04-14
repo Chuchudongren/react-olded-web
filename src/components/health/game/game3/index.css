@@ -1,0 +1,38 @@
+.game3_bg{
+    position: relative;
+    border: 1px solid red;
+    width: 1200px;
+    height: 600px;
+    margin: 20px 0 100px 150px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/health/game/game3_bg.png');
+    background-position: center;
+    background-size: 1200px 600px;
+}
+.game3_bg span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(234, 255, 47);
+}
+.game3_user{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 100px;
+    left: 500px;
+    z-index: 2;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/health/game/dog.png');
+    background-position: center;
+    background-size: 50px 50px;
+}
+.game3_apple{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: none;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/health/game/apple.png');
+    background-position: center;
+    background-size: 50px 50px;
+}

@@ -1,0 +1,52 @@
+.news_local{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+}
+.news_local img{
+    position: absolute;
+    height: 240px;
+    max-width:400px;
+    border-radius:5px;
+    bottom: 0;
+    right: 0;
+}
+.news_local_title{
+    display: block;
+    height: 700px;
+    font-size: 22px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0 0 20px;
+    font-weight: 600;
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+     /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+     /* autoprefixer: on *//** 设置或检索伸缩盒对象的子元素的排列方式 **/
+     -webkit-line-clamp: 1; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.news_local_title:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration:underline;
+}
+.news_local_content{
+    display: block;
+    padding: 30px 20px 0 20px;
+    width:17em;
+    font-size: 18px;
+    line-height:2em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}

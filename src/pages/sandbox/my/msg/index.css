@@ -1,0 +1,163 @@
+/* topic */
+.my_msg h1{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0 10px 0;
+    color: rgb(110, 45, 170);
+}
+
+.my_msg .ant-table-wrapper{
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.my_msg .ant-table{
+    color: rgb(36, 26, 82);
+    background-color: transparent;
+}
+.my_msg .ant-table-thead tr th{
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.my_msg .ant-table-tbody tr .ant-table-cell-row-hover{
+    background-color: rgb(221, 215, 255) !important;
+}
+.my_msg .ant-table-tbody tr td{
+    font-size: 18px;
+    position: relative;
+    padding: 10px 0 10px 29px;
+    margin: 0;
+    border-bottom: 1px solid rgb(252, 121, 121);
+}
+.my_msg .topictitle{
+    width: 14em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 * */
+}
+.my_msg .ant-table-thead tr th{
+    text-align: center;
+    border-bottom: 1px solid rgb(252, 121, 121);
+}
+.my_msg .ant-table-thead tr th:nth-child(n+2){
+    font-size: 20px;
+}
+/* 状态的样式 */
+.my_hoard_modify{
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px;
+    border-radius: 5px;
+}
+/* 分页的样式 */
+.my_msg .ant-pagination li {
+    background-color: rgb(193, 248, 255);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.my_msg .ant-pagination li a{
+    font-size: 30px;
+}
+.my_msg .ant-pagination .ant-pagination-item-link{
+    background-color: rgba(255, 255, 255, 0);
+}
+.my_msg .ant-pagination .ant-pagination-item-link span svg{
+    width: 30px;
+    height: 30px;
+    margin: 8px 0 0 0;
+}
+
+/* follow */
+.my_msg .ant-table-thead tr th:nth-child(1){
+    text-align-last: left;
+    width: 30%;
+}
+.my_msg .ant-table-tbody tr td:nth-child(1) a{
+    font-size: 22px;
+}
+.my_msg .ant-table-tbody tr td:nth-child(2){
+    text-align: center;
+    width: 15%;
+}
+.my_msg .ant-table-tbody tr td:nth-child(3){
+    width: 15%;
+}
+.my_msg .ant-table-tbody tr td:nth-child(4){
+    width: 15%;
+}
+.my_msg .ant-table-tbody tr td:nth-child(5){
+    width: 15%;
+}
+
+.my_msg .ant-table-tbody tr th:nth-child(5){
+    position: relative;
+}
+.my_msg .topic_delete:hover{
+    top: 6px;
+}
+.my_msg .topic_delete{
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 5px;
+    left:25px;
+    background-color: rgb(255, 68, 140);
+    font-size: 26px;
+    border-radius: 5px;
+    color: rgb(252, 233, 233);
+}
+.my_msg .ant-table-tbody tr td a::before{
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 8px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 117, 175);
+}
+
+/* switch */
+.my_msg .ant-switch {
+    width: 70px;
+    height: 30px;
+}
+.my_msg .ant-switch .ant-switch-handle {
+    width: 25px;
+    height: 25px;
+    border-radius:13px !important;
+    overflow: hidden;
+    left: 1px;
+    top: 3px;
+}
+.my_msg .ant-switch-checked{
+    background-color: rgb(255, 68, 140);
+}
+.my_msg .ant-switch-checked .ant-switch-handle {
+    width: 25px;
+    height: 25px;
+    border-radius:13px !important;
+    overflow: hidden;
+    left: 43px;
+}
+.my_msg .ant-switch .ant-switch-inner{
+    font-size: 16px;
+}

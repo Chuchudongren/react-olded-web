@@ -1,0 +1,165 @@
+.clinic_bg{
+    height: 2200px;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.clinic_main{
+    position: relative;
+    padding: 0 20px 200px 20px;
+    background-image: linear-gradient(to right bottom, 
+    rgba(250, 231, 231, 0.8),
+    rgb(250, 170, 170, 0.8),
+    rgba(245, 238, 219, 0.8),
+    rgba(196, 255, 245, 0.8),
+    rgb(183, 225, 241, 0.8),
+    rgb(224, 163, 240, 0.8),
+    rgb(228, 163, 179, 0.8));
+    
+    border-radius: 20px;
+}
+.clinic_main .ant-steps{
+    margin: 30px 0;
+}
+.clinic_main .ant-steps-item-title::after{
+    height: 2px;
+}
+.clinic_main  .ant-steps-item-icon{
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    border-radius: 50%;
+}
+.clinic_main .ant-steps-icon {
+    font-size: 30px;
+}
+.clinic_main .ant-steps-finish-icon{
+    margin: 10px 0 0 0;
+}
+
+.clinic_main .ant-steps-item-title{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.6em;
+}
+.clinic_main .ant-steps-item-description{
+    display: block;
+    max-width: none !important;
+    height: 40px ;
+    font-size: 24px;
+}
+
+/* btn 上一步 下一步 提交 */
+.clinic_action{
+    position: absolute;
+    bottom: 70px;
+    right:0;
+}
+.clinic_action button{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(241, 105, 87);
+    font-size: 40px;
+    margin: 0 30px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 20px;
+}
+
+/* step3 */
+.health_form3 .clinic_tips{
+    font-size: 20px;
+    color: rgb(139, 11, 11);
+}
+.health_form3 .clinic_info {
+    display: none;
+    width: 1000px;
+    height: 180px;
+    background-color: #fff;
+    margin: 0 0 20px 140px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.health_form3 .clinic_info header{
+    font-size: 24px;
+    line-height: 1.4em;
+    color: rgb(63, 17, 148);
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+     /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+     /* autoprefixer: on *//** 设置或检索伸缩盒对象的子元素的排列方式 **/
+     -webkit-line-clamp: 2; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.health_form3 .clinic_info section{
+    font-size: 22px;
+    line-height: 1.2em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.health_form3 .clinic_info span{
+    display: inline-block;
+    margin: 5px 10px;
+    color: #111;
+    font-size: 30px;
+}
+.health_form3 .clinic_info footer{
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: rgb(167, 20, 20);
+}
+
+
+.health_form3 .clinic_data .ant-picker-input{
+    width: 320px;
+    height: 40px;
+}
+.clinic_data .ant-picker-input input{
+    font-size: 30px;
+}
+.health_form3 .ant-picker-dropdown{
+    width: 500px !important;
+}
+.health_form3 .ant-picker-header{
+    font-size: 30px !important;
+    width: 500px !important;
+}
+.health_form3 .ant-picker-super-next-icon::after,.ant-picker-super-next-icon::before,.ant-picker-next-icon::before,.ant-picker-prev-icon::after,.ant-picker-super-prev-icon::before,.ant-picker-super-prev-icon::after,.ant-picker-prev-icon::before{
+    width: 15px !important;
+    height: 15px !important;
+}
+.health_form3 .ant-picker-content{
+    width: 480px !important;
+}
+
+.health_form3 .ant-picker-content tr th{
+    text-align: center;
+    font-size: 30px !important;
+}
+.health_form3 .ant-picker-content tr td{
+    font-size: 30px !important;
+}
+.health_form3 .ant-picker-cell-inner:hover{
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #ccc !important;
+}
+
+.health_form3 .ant-picker-footer-extra {
+    width: 500px !important;
+    text-align: center !important;
+    font-size: 28px;
+}
+/* 没登录 */
+.noLogin{
+    font-size: 60px;
+    font-weight: 700;
+}

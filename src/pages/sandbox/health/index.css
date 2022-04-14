@@ -1,0 +1,39 @@
+.health_index_bg{
+    width: 100%;
+}
+.health_index_nav{
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 0 20px;
+}
+.health_index_nav ul{
+    display: flex;
+    height: 100px;
+    margin: 0;
+}
+.health_index_nav ul li{
+    flex:1;
+}
+.health_index_nav ul li:nth-child(3){
+    flex:1.2;
+}
+.health_index_nav ul li span{
+    text-align: center;
+    display: block;
+    height: 1.8em;
+    line-height: 1.8em;
+    font-size: 35px;
+    margin:14px 30px 0 0;
+    border-radius: 7px;
+}
+.health_index_nav ul li span:hover{
+    cursor: pointer;
+    background-color: rgba(230, 230, 230, 0.61);
+    transition: all 0.5s;
+}
+.health_index_active{
+    color: #fff;
+    background-color: rgb(241, 105, 87);
+}
+.health_index_active:hover{
+    background-color: rgb(241, 105, 87) !important;
+}

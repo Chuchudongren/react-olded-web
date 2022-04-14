@@ -1,0 +1,482 @@
+.hoard_detail_bg{
+    padding: 0;
+    padding-bottom: 50px;
+}
+.hoard_detail_body{
+    background-color: rgb(205, 227, 252);
+    border-radius: 20px;
+}
+.hoard_detail_main{
+    padding: 10px 20px;
+}
+/* 标题 */
+.hoard_detail_title{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.hoard_detail_title span{
+    font-size: 50px;
+    background-color: rgb(233, 243, 255);
+    border-radius:20px;
+    line-height: 80px;
+    padding: 20px;
+    color: rgb(0, 180, 180);
+}
+/* 头部信息 */
+.hoard_detail_info{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    margin: 20px 0 0 0 ;
+}
+.hoard_detail_info h2{
+    display: inline-block;
+    height: 50px;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 0 20px 0 0;
+}
+.hoard_detail_info h2 span{
+    font-size: 28px;
+    color: rgb(114, 114, 114);
+}
+.hoard_detail_hot span{
+    color: red !important;
+}
+.hoard_detail_nohot span{
+    color: #ccc !important;
+}
+/* 主贴的内容 */
+.hoard_detail_content_1{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px ;
+}
+.hoard_detail_content div{
+    font-size: 30px;
+}
+.hoard_detail_content section{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.hoard_detail_content h1{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    background-image: linear-gradient(to top,rgb(253, 253, 253),rgb(255, 255, 255));
+    color: rgb(143, 177, 165);
+    font-size: 80px;
+    line-height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+    border:2px solid #ccc;
+}
+@keyframes hoverStar{
+    0%{
+        color: rgb(190, 255, 233);
+        border-bottom: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        )
+}
+    10%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    20%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    30%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    40%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    50%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    60%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        border-top: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    70%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        border-top: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    80%{
+        border-bottom: 2px solid rgb(206, 59, 255);
+        border-right: 2px solid rgb(206, 59, 255);
+        border-top: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253),
+        rgb(253, 253, 253)
+        );
+}
+    90%{
+        border: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(255, 225, 225),
+        rgb(253, 253, 253)
+        );
+}
+    100%{
+        color: rgb(255, 70, 125);
+        border: 2px solid rgb(206, 59, 255);
+        background-image: linear-gradient(to top,
+        rgb(255, 225, 225),
+        rgb(255, 225, 225)
+        );
+    }
+}
+.hoard_detail_content h1:hover{
+    cursor: pointer;
+    animation: hoverStar linear 1s forwards;
+}
+.hoard_detail_content section h2{
+    display: inline-block;
+    font-size: 30px;
+}
+/* 跟帖 */
+.hoard_detail_followtopic{
+    margin: 10px 0 0 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+.hoard_detail_followtopic_header{
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+    background-color: rgb(253, 218, 244);
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.hoard_detail_followtopic_type{
+    color: red;
+    margin: 0 10px;
+    border: 1px solid red;
+    border-radius:5px;
+    padding: 3px;
+}
+.hoard_detail_followtopic_nickname a{
+    margin: 0 10px;
+    color: rgb(214, 45, 129);
+}
+.hoard_detail_followtopic_pushtime{
+    font-size: 26px;
+    font-weight: 700;
+}
+.hoard_detail_followtopic_pushtime span{
+    font-size: 24px;
+    font-weight: normal;
+}
+/* 跟帖内容 */
+.hoard_detail_followtopic_content{
+    margin: 20px 0 0 0;
+    width: 100%;
+    background-color: rgb(206, 185, 255);
+    border-radius: 20px;
+    padding:20px 20px;
+    overflow: hidden;
+}
+.hoard_detail_followtopic_content p{
+    font-size: 26px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+/* 添加跟帖 */
+.hoard_detail_followTopic_btn{
+    float: right;
+    width: 260px;
+    height: 70px;
+    font-size: 40px;
+    margin: 10px 40px 10px 0;
+    border-radius: 10px;
+    background-color: rgb(206, 185, 255);
+}
+.hoard_detail_writeFollow{
+    float: right;
+    margin: 10px 0 0 0;
+    width: 750px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 26px;
+    resize:none;
+    margin: 10px 70px 0 0;
+}
+.hoard_detail_pushFollowTopic{
+    float: right;
+    width: 260px;
+    height: 70px;
+    font-size: 40px;
+    margin: -80px 40px 0 0;
+    border-radius: 10px;
+    background-color: rgb(43, 116, 253);
+    color: #fff;
+}
+
+/* 评论 */
+.hoard_detail_comment{
+    width: 800px;
+    float: right;
+    padding: 5px 20px;
+    border-top: 1px solid rgb(109, 109, 109);
+    overflow: hidden;
+}
+.hoard_detail_comment_nickname{
+    font-size: 24px;
+    float: left;
+}
+.hoard_detail_comment_pushtime{
+    font-size: 24px;
+    float: right;
+}
+.hoard_detail_comment_content{
+    width: 800px;
+    font-size: 26px;
+}
+.hoard_detail_comment_lookcomment{
+    float: right;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: aliceblue;
+    margin: 0 10px 20px 0;
+}
+.hoard_detail_comment_lookcomment svg{
+    width: 40px;
+    height: 40px;
+    margin: -10px -8px 0 -18px;
+    vertical-align: middle;
+}
+.hoard_detail_comment_writecomment{
+    float: right;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 0 10px 20px 0;
+}
+
+
+/* 子评论 */
+.hoard_detail_soncomment{
+    float: right;
+    width: 700px;
+    padding: 5px 20px;
+    border-top: 1px solid rgb(128, 128, 128);
+    overflow: hidden;
+}
+.hoard_detail_soncomment_nickname{
+    font-size: 18px;
+    float: left;
+}
+.hoard_detail_soncomment_pushtime{
+    font-size: 18px;
+    float: right;
+}
+.hoard_detail_soncomment_content{
+    margin: 5px 0 0 0;
+    font-size: 20px;
+}
+/* 给一级评论添加评论 */
+.hoard_detail_comment_write{
+    margin: 15px 0 0 0;
+    float: right;
+}
+.hoard_detail_comment_write textarea{
+    margin: 0 40px 0 0;
+    width: 500px;
+    height: 140px;
+    resize: none;
+    border: none;
+    font-size: 20px;
+    border-radius:10px;
+    padding: 5px 10px;
+}
+.hoard_detail_comment_write textarea::-webkit-scrollbar{
+    display: none;
+}
+.hoard_detail_comment_write button{
+    float: right;
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: rgb(43, 116, 253);
+    color: #fff;
+    border-radius: 10px;
+    margin: 90px 0 0 0;
+}
+
+/* 对帖子发表评论 */
+.hoard_detail_compose_comment{
+    float: right;
+    width: 800px;
+}
+
+.hoard_detail_compose_btn{
+    float: right;
+    width: 200px;
+    height: 60px;
+    background-color: aliceblue;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 30px 0 0;
+}
+.hoard_detail_comment_textarea{
+    float: right;
+    width: 800px;
+    height: 180px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+.hoard_detail_comment_textarea textarea{
+    width: 780px;
+    height: 120px;
+    resize: none;
+    font-size: 24px;
+}
+.hoard_detail_comment_textarea span{
+    float: right;
+    font-size: 30px;
+}
+.hoard_detail_comment_textarea span i{
+    color: orange;
+    font-weight: 700;
+}
+.hoard_detail_comment_textarea button{
+    margin: 0 0 0 10px;
+    float: right;
+    width: 160px;
+    height: 45px;
+    font-size: 28px;
+    border-radius: 10px;
+    background-color: rgb(206, 185, 255);
+}

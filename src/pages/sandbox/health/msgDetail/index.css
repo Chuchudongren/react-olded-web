@@ -1,0 +1,133 @@
+.msg_detail_bg{
+    position: relative;
+    height: 2000px;
+}
+.msg_detail_goback{
+    position: absolute;
+}
+.msg_detail_bg .container {
+    padding: 0;
+}
+/* 头部 面包屑 */
+.msg_detail_header {
+    height: 70px;
+    
+}
+.msg_detail_header span{
+    font-size: 30px;
+    margin: 20px 10px;
+}
+.msg_detail_header .msg_detail_back:hover{
+    cursor: pointer;
+    color: rgb(241, 105, 87);
+}
+
+/* 正文部分 */
+.msg_detail_body{
+    background-color: rgb(190, 237, 252);
+    padding: 10px;
+    border-radius: 20px;
+}
+.msg_detail_body h1{
+    margin: 0 0 2px 0 ;
+    font-size: 45px;
+    line-height: 1.2;
+    height: 150px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.534);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+/* 功能按钮区 */
+.msg_detail_btn{
+    height: 60px;
+    line-height: 60px;
+    border-radius:25px;
+    padding:0 20px;
+}
+.msg_detail_btn .date{
+    font-size: 28px;
+}
+.msg_detail_btn .webname{
+    display: inline-block;
+    font-size: 28px;
+    margin: 0 20px;
+}
+.msg_detail_btn .font1,.msg_detail_btn .font2{
+    float: right;
+    font-size: 35px;
+    margin: 0 10px;
+    transition: all 0.5s linear;
+}
+.msg_detail_btn .font1:hover{
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 13px 0 0;
+}
+.msg_detail_btn .font2:hover{
+    cursor: pointer;
+    font-size: 40px;
+    margin: 0 8px 0 5px;
+}
+
+.msg_detail_btn .qqshare,.msg_detail_btn .wbshare{
+    float: right;
+    font-size: 40px;
+    margin: 0 10px;
+}
+@keyframes shank{
+    0%{
+        transform: rotate(0deg);
+    }
+    17%{
+        transform: rotate(40deg);
+    }
+    33%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-40deg);
+    }
+    66%{
+        transform: rotate(0);
+    }
+    83%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.msg_detail_btn .qqshare:hover,.msg_detail_btn .wbshare:hover{
+    cursor: pointer;
+    animation: 1s linear shank;
+}
+.msg_detail_btn .feedback{
+    float: right;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.msg_detail_btn .feedback:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+/* 简介 */
+.msg_detail_intro{
+    margin: 4px 0 0 0;
+    height: 150px;
+    background-color: rgba(213, 219, 255, 0.527);
+    border-radius:20px;
+    padding:5px 10px;
+    font-size: 26px;
+}
+
+/* 正文 */
+.msg_detail_paragraph{
+    background-color: rgba(159, 236, 255, 0.849);
+    height: 1400px;
+    font-size: 26px;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin: 10px 0 0 0;
+}

@@ -1,0 +1,15 @@
+.tab{
+    width: 100%;
+    height: 50px;
+}
+.tab button{
+    width: 120px;
+    font-size: 30px;
+    height: 50px;
+    margin-left:10px;
+    border-bottom: 2px solid #ccc;
+
+}
+.tab button:hover{
+   color: red;
+}

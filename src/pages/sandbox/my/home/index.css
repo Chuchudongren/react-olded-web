@@ -1,0 +1,88 @@
+.myhome_part1 .user_avatar{
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(216, 255, 247);
+    margin: 10px 0 0 10px;
+    object-fit: cover;
+}
+.myhome_part1 .ant-col{
+    height: 145px;
+    padding: 0 !important;
+}
+.myhome_part1 .ant-upload-picture-card-wrapper>div{
+    width: 120px;
+    height: 120px;
+    border: 1px solid transparent;
+    margin: 10px 0 0 10px;
+    object-fit: cover;
+}
+.change_avatar{
+    width: 120px;
+    height: 118px;
+    object-fit: cover;
+}
+.myhome_ava{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(114, 240, 177);
+    font-size: 28px;
+    border-radius: 10px;
+    margin: 50px 0 0 8px;
+}
+.myhome_nickname{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    margin: 50px 0 0 10px;
+}
+.myhome_nickname input{
+    display: inline-block;
+    width: 400px;
+    padding: 0 10px ;
+    vertical-align: baseline;
+    border-radius: 5px;
+}
+.myhome_changeNick button{
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(114, 240, 177);
+    font-size: 28px;
+    border-radius: 10px;
+    margin:10px 30px 0 0;
+}
+/* 分界线 */
+.myhome_divider .ant-divider-inner-text{
+    font-size: 30px;
+    color: rgb(38, 150, 255);
+}
+/* 第二部分 */
+.myhome_part2 .ant-col{
+    /* border: 1px solid red; */
+    padding: 0 0 0 30px !important;
+    height: 60px;
+    line-height: 60px;
+}
+.myhome_part2 span{
+    font-size: 28px;
+}
+/* 志愿信息 */
+.myhome_part3 span{
+    font-size: 28px;
+}
+.myhome_part3 .ant-col{
+    /* border: 1px solid red; */
+    padding: 0 0 0 30px !important;
+    height: 60px;
+    line-height: 60px;
+}
+.myhome_part3 button{
+    float: right;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(114, 240, 177);
+    font-size: 28px;
+    border-radius: 10px;
+    margin: 0px 50px 0 0;
+}

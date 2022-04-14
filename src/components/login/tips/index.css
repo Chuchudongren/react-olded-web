@@ -1,0 +1,20 @@
+.tip_login{
+    float: left;
+    height: 50px;
+    font-size: 30px;
+    margin: -160px 0 0 -10px;
+    padding-right: 20px;
+    background-color: #fffbe6;
+    border: 1px solid #ffe58f;
+    border-radius:10px;
+}
+.tip_lose{
+    float: left;
+    height: 50px;
+    font-size: 30px;
+    margin: -60px 0 0 -130px;
+    padding-right: 20px;
+    background-color: #fffbe6;
+    border: 1px solid #ffe58f;
+    border-radius:10px;
+}

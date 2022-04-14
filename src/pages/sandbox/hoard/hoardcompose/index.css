@@ -1,0 +1,40 @@
+
+.hidden{
+    display: none
+}
+/* 富文本编辑区域 */
+.compose_editor{
+    background-color: rgb(206, 230, 255);
+    height: 630px;
+    margin: 0 0 70px 0 ;
+    border-radius:20px;
+}
+.compose_title{
+    padding: 30px 0 0 30px;
+    height: 120px;
+}
+.compose_title span{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 30px 0 0 ;
+    vertical-align: middle;
+}
+
+.compose_title input{
+    width: 900px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+
+.compose_editor button{
+    width: 400px;
+    height: 60px;
+    margin: 20px  0 0 360px;
+    font-size: 40px;
+    background-image: linear-gradient(to right bottom, rgb(253, 216, 216), blue);
+    border-radius: 20px;
+    color: #fff;
+}

@@ -1,0 +1,95 @@
+.pages {
+    padding: 150px 0 0 0;
+}
+
+.background_user {
+    width: 100%;
+    background-image: url('http://127.0.0.1:8002/uploads/body/login/login_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_index {
+    width: 100%;
+    /* background-image: url('http://127.0.0.1:8002/uploads/body/index/index_bg.png'); */
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/health/health_bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 1020px;
+    background-position: cover;
+}
+.background_news{
+    width: 100%;
+    height: 1360px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.background_news_detail{
+    width: 100%;
+    height: 2250px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.background_news_search{
+    width: 100%;
+    height: 1900px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+.background_life_index{
+    width: 100%;
+    background-color: #eee3ca;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/life/life_bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
+
+.background_vlount_list{
+    width: 100%;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/life/volunt/volunt_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: top 100%;
+    background-position: 0 0;
+}
+.background_law_detail{
+    width: 100%;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/life/law/lawdetail_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 1500px;
+    background-position: 0 0;
+}
+.background_service_list{
+    width: 100%;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/life/service/service_bg2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0 0;
+}
+
+.background_health_index{
+    width: 100%;
+    background-image:url('http://127.0.0.1:8002/uploads/body/index/health/game/game1_bg.jpg');
+    background-repeat: no-repeat;
+    background-size:auto 2700px;
+    background-position: 0 0;
+}
+.background_hoard_index{
+    width: 100%;
+    background-image:url('http://127.0.0.1:8002/uploads/body/index/hoard/hoard_bg.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: 0 0;
+}
+.background_my_index{
+    width: 100%;
+    background-image:url('http://127.0.0.1:8002/uploads/body/index/my/my_bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: 0 -900px;
+}

@@ -1,0 +1,25 @@
+.container{
+    float: right;
+    width: 320px;
+    height: 80px;
+    padding-top:13px;
+}
+.alert{
+    display: inline-block;
+    font-size: 20px;
+    color: #a0c9c1;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    vertical-align:middle;
+}
+.span{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+    color: #a0c9c1;
+}
+.span:hover{
+    cursor:pointer 
+}

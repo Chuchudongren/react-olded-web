@@ -1,0 +1,102 @@
+.law_detail_bg{
+    width: 100%;
+    min-height: 1250px;
+}
+.law_detail_header{
+    width: 100%;
+}
+.law_detail_main{
+    width: 1200px;
+    height: 1250px;
+    background-color:rgba(250, 235, 215, 0.527);
+    border: 1px solid red;
+    border-radius: 20px;
+    margin: 100px 0 0 150px;
+}
+
+.law_detail_header{
+    height: 80px;
+}
+.law_detail_header span{
+    display: block;
+    margin: 10px 0 0 40px;
+    font-weight: 600 ;
+    font-size: 35px;
+}
+.law_detail_header b:hover{
+    cursor: pointer;
+    color: red;
+}
+.law_detail_center{
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius:20px 20px 0 0 ;
+    border-bottom: 2px solid #ccc;
+}
+.law_detail_title{
+    height: 70px;
+    line-height: 60px;
+    padding:  10px 0 0px 30px;
+    font-size: 30px;
+}
+.law_detail_title svg {
+    color: rgb(255, 181, 92);
+    font-size: 40px;
+    margin: 0 10px 0 0 ;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.law_detail_content{
+    padding: 20px;
+    height: 220px;
+    font-size: 22px;
+}
+.law_detail_center div:last-child{
+    font-size: 20px;
+    margin: 10px 20px 0 0;
+    float: right;
+}
+.law_detail_footer{
+    height: 700px;
+    border-radius:  0 0 20px 20px ;
+    background-color: rgba(255, 255, 255, 0.849);
+    overflow: hidden;
+}
+.law_detail_footer>span {
+    display: block;
+    margin: 10px 0 10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(151, 151, 151);
+}
+.law_detail_reply{
+    padding:0 20px;
+}
+.law_detail_reply span{
+    font-size: 26px;
+}
+.law_detail_reply div{
+    float: right;
+    width: 200px;
+    height: 40px;
+    font-size: 28px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 20px 0 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.law_detail_reply div:hover{
+    cursor: pointer;
+}
+.law_detail_reply p {
+    margin: 30px 0 0 0;
+    font-size: 24px;
+}
+.law_detail_reply b{
+    float: right;
+    font-weight: normal;
+    margin: 20px 0px 0 0;
+    font-size: 20px;
+}

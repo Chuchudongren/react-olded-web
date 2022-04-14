@@ -1,0 +1,50 @@
+.news_community{
+    width: 700px;
+    height: 300px;
+    background-color: #fff;
+    text-align: left;
+    overflow:hidden
+}
+.news_community img{
+    height: 200px;
+    margin: 10px 0 0 20px;
+    max-width: 280px;
+}
+.news_community_title{
+    margin: 10px 0 10px 20px;
+    font-size: 25px;
+    width: 27em;
+    font-weight: 600;
+    line-height:2em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.news_community_title:hover{
+    cursor: pointer;
+    color: red;
+    text-decoration:underline;
+}
+
+
+
+.news_community_content{
+    float: right;
+    margin: 10px 25px 0 0 ;
+    width: 16em;
+    font-size: 22px;
+    line-height:1.5em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}

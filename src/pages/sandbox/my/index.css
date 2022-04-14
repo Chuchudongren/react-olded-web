@@ -1,0 +1,102 @@
+.my_bg{
+    padding: 0;
+    margin-top: 30px;
+    height: 1300px;
+}
+/* 左侧 */
+.my_left{
+    float: left;
+    width: 280px;
+    height: 800px;
+    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgb(125, 232, 247),rgb(125, 232, 247),rgba(24, 111, 164, 0.26));
+    border-radius:15px;
+    padding: 10px 0;
+}
+.my_left_header{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+.my_left_header div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0 20px 40px;
+    overflow: hidden;
+}
+.my_left_header img{
+    display: block;
+     width: 200px;
+     height: 200px;
+}
+.my_left_header h1{
+    font-size: 35px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.my_left_header span{
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    display: flex;
+}
+.my_left_header span b{
+    flex: 0.2;
+}
+.my_left_header i{
+    display: inline-block;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(248, 191, 191);
+    width: 80px;
+    height: 80px;
+}
+.my_left_header i:hover{
+    cursor: pointer;
+}
+.my_left_header i:active{
+    bottom: 39px;
+}
+.my_left_header i span{
+    margin: 0 0 0 6px;
+    width: 70px;
+    height: 70px;
+}
+.my_left_header i span svg{
+    width: 70px;
+    height: 70px;
+}
+.my_left_nav ul li{
+    width: 100%;
+    height: 70px;
+}
+.my_left_nav ul li button {
+    width: 260px;
+    height: 60px;
+    border-radius:10px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(204, 204, 204, 0.699);
+    margin: 5px 0 0 10px;
+}
+.my_left_nav ul li button:hover{
+    background-color: rgb(209, 242, 255);
+    color: rgb(74, 42, 255);
+}
+.my_left_nav ul li .my_nav_btn_active{
+    background-color: rgb(209, 242, 255);
+    color: rgb(74, 42, 255);
+}
+
+/* 右边 */
+.my_right{
+    width: 860px;
+    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgba(24, 111, 164, 0.26));
+    float: right;
+    border-radius:20px;
+    overflow: hidden;
+    padding: 10px 20px;
+}

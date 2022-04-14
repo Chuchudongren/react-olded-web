@@ -1,0 +1,181 @@
+.volunt_list_bg{
+    width: 100%;
+    min-height:1600px;
+    padding: 0 0 100px 0;
+}
+.volunt_list_header{
+    position: relative;
+    height: 400px;
+}
+.volunt_list_main{
+    background-color: #fff;
+}
+.volunt_list_container{
+    padding: 0;
+    width: 1180px;
+    border: 1px solid rgb(153, 153, 153);
+}
+.volunt_list_list{
+    width: 1180px ;
+    max-height: 1620px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+}
+.volunt_list_list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.volunt_list_list::-webkit-scrollbar-thumb {
+    background: rgb(255, 157, 108);
+    background-clip: padding-box;
+}
+
+.volunt_list_header div:first-child{
+    position: absolute;
+    width: 680px;
+    height: 80px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/life/volunt/volunt_list_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    top: 200px;
+    left: 50%;
+    margin-left: -340px;
+}
+.volunt_list_header div:last-child{
+    position: absolute;
+    height: 80px;
+    width: 240px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_detail_goBack.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    top: 300px;
+    left: 50px;
+}
+.volunt_list_header div:last-child:hover{
+    cursor: pointer;
+}
+/* 下拉菜单 */
+.volunt_list_sort{
+    height: 100px;
+    border-bottom: 2px solid rgb(199, 199, 199);
+}
+.ant-dropdown-trigger{
+    float: left;
+    margin: 30px 0 0 40px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    border-radius:40px;
+    padding: 0 0 0 30px;
+    font-size: 30px;
+    border: 1px solid rgb(175, 175, 175);
+}
+.ant-dropdown-menu-title-content{
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+}
+.anticon-down svg {
+    font-size: 24px;
+    margin: 0px 0 -2px 20px;
+}
+.volunt_list_sort div:last-child{
+    width: 230px;
+}
+
+/* 志愿活动列表 */
+.volunt_list_item{
+    width: 1170px;
+    height: 270px;
+    border-bottom: 3px solid #ccc;
+}
+.volunt_list_item:hover{
+    border-bottom: 3px solid red;
+    transition: border-bottom 1s;
+}
+.volunt_list_left{
+    float: left;
+    width: 380px;
+    height: 270px;
+}
+.volunt_list_left img{
+    width: 340px;
+    height: 230px;
+    margin:20px 20px;
+    object-fit: cover;
+    object-position:center;
+}
+.volunt_list_center{
+    padding:20px ;
+    float: left;
+    width: 540px;
+    height: 270px;
+}
+.volunt_list_center_title{
+    font-size: 28px;
+    font-weight: 600;
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 1; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.volunt_list_center_title:hover{
+    cursor: pointer;
+    color: red;
+}
+.volunt_list_center_info{
+    margin: 20px 0 0 10px ;
+    width: 300px;
+    height: 120px;
+}
+.volunt_list_center_info ul li {
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+.volunt_list_center_people{
+    margin: 0 0 0 10px ;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.anticon-smile svg{
+    vertical-align: middle;
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(255, 115, 0);
+    margin: 0 20px 10px 0;
+}
+.volunt_list_center_people span:last-child{
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.volunt_list_right{
+    float: left;
+    width: 250px;
+    height: 270px;
+}
+.volunt_list_right span{
+    display: block;
+    text-align: right;
+    font-size: 26px;
+    margin: 40px 30px 0 0;
+}
+.volunt_list_right button {
+    width: 200px;
+    height: 60px;
+    border: 1px solid rgb(255, 94, 0);
+    background-color: rgb(255, 166, 0);
+    font-size: 30px;
+    color: #fff;
+    margin: 50px 30px 0 0 ;
+    border-radius:40px;
+}

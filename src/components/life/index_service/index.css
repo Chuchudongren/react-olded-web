@@ -1,0 +1,66 @@
+.index_service_bg{
+    width: 1099px;
+    height: 700px;
+    overflow: hidden;
+}
+.index_service_lookall{
+    float: right;
+    font-size: 28px;
+    color: #fff;
+    margin: 3px 40px 0 0 ;
+}
+.index_service_lookall:hover{
+    cursor: pointer;
+    color: rgb(193, 255, 24);
+}
+.index_service_box{
+    width: 1099px;
+    margin: 50px 0;
+    height: 600px;
+    background-color: aliceblue;
+}
+.index_service_item{
+    width: 1099px;
+    height: 120px;
+    border-bottom: 2px solid #ccc;
+}
+.index_service_item span{
+    float: left;
+    width: 200px;
+    height: 110px;
+    line-height: 110px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.index_service_item span:hover{
+    cursor: pointer;
+    color: rgb(245, 98, 98);
+}
+
+.index_service_item ul {
+    padding: 10px 0 0 0;
+    float: left;
+    width: 650px;
+}
+.index_service_item ul li{
+    float: left;
+    font-size: 30px;
+    margin: 0  0 0 30px;
+}
+.index_service_item ul li:first-child{
+    margin-left: 30px;
+}
+.index_service_item ul li:hover{
+    cursor: pointer;
+    color: rgb(245, 98, 98);
+    text-decoration: underline;
+}
+.index_service_item img {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 8px 20px;
+    object-fit: cover;
+}

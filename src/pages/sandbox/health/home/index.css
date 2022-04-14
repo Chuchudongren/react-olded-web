@@ -1,0 +1,152 @@
+.health_home{
+    height: 2450px;
+}
+.health_home_jumbotron img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.health_home_infoCollect{
+    display: flex;
+    position: relative;
+    height: 530px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 20px;
+}
+.health_home_infoCollect div{
+    flex: 1;
+    height: 430px;
+    text-align: center;
+}
+.health_home_infoCollect div img{
+    width: 200px;
+    height: 200px;
+    margin: 60px 0 20px 0;
+}
+.health_home_infoCollect div h2{
+    font-size: 30px;
+}
+.health_home_infoCollect div h2:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline dotted red;
+}
+
+.health_home_infoCollect .health_game_second{
+    position: relative;
+}
+.health_home_infoCollect .health_game_second::before{
+    content: " ";
+    box-shadow: #ccc -20px 0 20px;
+    width: 15px;
+    height: 300px;
+    left: 0;
+    top: 20px;
+    position: absolute;
+}
+.health_home_infoCollect .health_game_second::after{
+    content: " ";
+    box-shadow: #ccc 20px 0 20px;
+    right: 0;
+    top: 20px;
+    width: 15px;
+    height: 300px;
+    position: absolute;
+}
+.health_home_infoCollect button{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -200px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f74c71;
+    border-radius: 5px;
+}
+
+.health_home_msg{
+    padding:0;
+}
+.health_home_msg_header{
+    position: relative;
+    height: 80px;
+    margin: 40px 0;
+}
+.health_home_msg_header h2{
+    position: absolute;
+    font-size: 46px;
+    background-color: rgba(255, 255, 255, 0);
+    top: -10px;
+    left: 50%;
+    border: 1px dotted red;
+    padding:20px;
+    margin-left: -100px;
+    border-radius: 20px;
+    background-color: #f74c71;
+    color: rgb(255, 255, 255);
+}
+.health_home_msg_main{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 340px;
+    border-radius: 10px;
+    height: 500px;
+    margin: 0  0 40px 38px;
+    padding: 38px 28px; 
+    background-color: #e5f3f8;
+    border-bottom: 1px solid rgb(71, 84, 255);
+}
+
+.health_home_msg_main header h3{
+    font-size: 28px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #f74c71;
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+     /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+     /* autoprefixer: on *//** 设置或检索伸缩盒对象的子元素的排列方式 **/
+     -webkit-line-clamp: 2; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.health_home_msg_main p{
+    font-size: 20px;
+    line-height: 1.8em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #ccc;
+    background-image: linear-gradient(to bottom, 
+    rgba(250, 231, 231, 0.8),
+    rgba(196, 255, 245, 0.8),
+    rgb(183, 225, 241, 0.8),
+    #e5f3f8);
+    background-color: #feffef9f;
+    border-radius: 10px;
+    height: 12em;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp:6; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.health_home_msg_main p span{
+    color: #9193fd;
+    font-weight: 700;
+}
+.health_home_msg_main button{
+    width: 200px;
+    height: 65px;
+    color: #fff;
+    background-color: rgb(54, 53, 53);
+    font-size: 30px;
+    border-radius: 10px;
+}

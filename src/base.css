@@ -1,0 +1,162 @@
+/* CSS样式的初始化 */
+
+/* 把所有标签的内外边距清零 */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* CSS3盒子模型 */
+    box-sizing: border-box;
+}
+
+/* 去掉li 的小圆点 */
+
+li {
+    list-style: none;
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消底边有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+/* 链接 颜色变成黑色 取消下划线 */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    /* 经过链接变成红色 */
+    color: #a0c9c1;
+}
+
+.clearfix::after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: "KaiTi","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+/* 短引用的内容可取值：''或"" */
+
+q:before, q:after {
+    content: ”;
+}
+
+/* 缩写，图片等无边框 */
+
+fieldset, img, abbr, acronym {
+    border: 0 none;
+}
+
+abbr, acronym {
+    font-variant: normal;
+}
+
+legend {
+    color: #000;
+}
+
+/* 清除特殊标记的字体和字号 */
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 上下标 */
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 表格标题及内容居左显示 */
+
+caption, th {
+    text-align: left;
+}
+
+input, img, select {
+    vertical-align: middle;
+}
+
+/* 清除列表样式 */
+
+ol, ul {
+    list-style: none;
+}
+
+/* 输入控件字体 */
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    border: 0;
+    outline: none;
+}
+
+/* 标题元素样式清除 */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* 链接样式，颜色可酌情修改 */
+
+del, ins, a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+
+/* 鼠标样式 */
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}

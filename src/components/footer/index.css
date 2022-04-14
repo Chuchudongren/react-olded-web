@@ -1,0 +1,90 @@
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color:#f5f5f7 ;
+    overflow: hidden;
+}
+/* footer 上半部分 */
+.part{
+    padding-top: 10px;
+}
+.part span{
+    padding-left: 5px;
+    font-size: 28px;
+}
+
+.part1 ul  {
+    padding-left: 40px;
+}
+.part1 ul li{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.part2 ul {
+    padding-left: 40px;
+}
+.part2 ul li{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.part3>span{
+    padding-left:40px;
+}
+.part3 ul {
+    padding: 10px 0 0 40px;
+}
+.part3 ul li span{
+    font-size: 18px;
+}
+.part3 ul li {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.part4{
+    padding-right: 20px;
+}
+.part4>span{
+    padding-left:50px;
+    display: block;
+}
+.social{
+	overflow: hidden;
+	margin: 10px 0px 0 40px;
+}
+.social a {
+    border-radius: 5px;
+	float: left;
+	margin: 0 0 20px 30px;
+    padding: 0 5px 10px 0;
+    text-align: center;
+    width: 100px;
+    height: 90px;
+}
+.social a span {
+    font-size: 16px;
+    line-height:32px;
+}
+/* footer 下半部分 */
+.c1,.c2,.c3 {
+    display: block;
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+
+}
+.c1{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.c1 a {
+    color: #999999;
+    margin:0 10px 0 10px;
+}
+.c2{
+    padding-top: 10px;
+}
+.c3{
+    padding-top: 0px;
+}

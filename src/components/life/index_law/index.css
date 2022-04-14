@@ -1,0 +1,185 @@
+.index_law{
+    width: 100%;
+    overflow: hidden;
+}
+.index_law_list{
+    float: left;
+    width: 399px;
+    height: 400px;
+    background-color: #f3e7e63b;
+}
+.index_law_list span{
+    display: block;
+    width: 90%;
+    height: 1.5em;
+    font-size: 40px;
+    margin-left:20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+.index_law_list ul{
+    margin:5px 20px;
+    width: 16em;
+    height: 100%;
+    line-height: 1.8em;
+    font-size: 22px;
+    color: rgb(112, 90, 42);
+}
+.index_law_list ul li{
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.index_law_list ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+/* 走马灯 */
+.index_law_carousel{
+    float: left;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+}
+.index_law_carousel img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.index_law_carousel img:hover{
+    cursor: pointer;
+}
+
+.slick-dots li {
+    width: 40px !important;
+    margin: 0 10px !important;
+}
+.slick-dots li button{
+    height: 10px !important;
+}
+/* 普法 */
+.index_law_popularize{
+    width: 100%;
+    background-color: #fff7f6;
+}
+.index_law_popularize_body .ant-tabs-ink-bar {
+    background-color: #cd1c16 !important;
+}
+.index_law_popularize_body .ant-motion-collapse-leave,.ant-collapse-content-active,.ant-collapse-icon-position-left,.ant-collapse-content{
+    background-color: #f3e7e63b !important;
+}
+
+.index_law_popularize_body .ant-collapse-item {
+    margin: 0 !important;
+    border: 0px !important;
+}
+.index_law_popularize_header{
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid rgb(9, 188, 243);
+}
+.index_law_popularize_header span{
+    float: left;
+    margin: 0 40px;
+    width: 200px;
+    height: 1.5em;
+    font-size: 36px;
+    font-weight: 600;
+    color: #cd1c16;
+
+}
+.index_law_popularize_header button{
+    float: right;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 60px;
+    background-color: transparent;
+}
+.index_law_popularize_header button:hover{
+    text-decoration: underline;
+}
+.index_law_popularize_body{
+    width: 100%;
+}
+
+.ant-tabs-tab{
+    width: 200px;
+    font-size: 30px !important;
+}
+.ant-tabs-tab div{
+    margin:0px 0 0 40px;
+}
+.ant-tabs-tab:hover {
+    color: #cc726f !important;
+}
+.ant-tabs-tab-active div{
+    color: #cd1c16 !important;
+}
+
+.ant-collapse-header{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+}
+.ant-collapse-header svg {
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+
+.ant-collapse-content-box p{
+    font-size: 20px;
+}
+
+/* 用户按钮 */
+.index_law_entry{
+    width: 100%;
+    height: 80px;
+    background-color: #f3e7e63b;
+}
+.index_law_entry button{
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    font-size: 30px;
+    line-height: 60px;
+    border: 1px solid rgb(248, 142, 142);
+    border-radius:10px;
+    margin: 10px 0 0 30px;
+
+}
+.index_law_entry button:hover{
+    background-color: rgb(255, 86, 86);
+    color: #eee;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+.index_law_entry span{
+    float: right;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 25px 20px 0 0 ;
+}
+.index_law_entry a{
+    float: right;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 15px 20px 0 0 ;
+    border: 1px solid transparent;
+    padding:10px;
+}
+.index_law_entry a:hover{
+    color: rgb(216, 29, 29);
+    border: 1px solid rgb(255, 86, 86);
+    border-radius: 10px;
+}
+/* 填写留言咨询 */
+
+

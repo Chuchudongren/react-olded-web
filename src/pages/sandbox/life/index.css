@@ -1,0 +1,49 @@
+.life_bg{
+     width: 100%;
+     background-color: #fde6e949;
+     height: 3530px;
+}
+.life_left{
+     position: relative;
+     background-color: #fcaab449;
+     float: left;
+     width: 420px;
+     height: 3530px;
+
+}
+.life_right{
+     float: left;
+     width: 1099px;
+}
+#life_index{
+     width: 100%;
+     height: 100vh;
+}
+.life_index_title{
+     position: relative;
+     width: 280px;
+     height: 280px;
+     margin: 0 0 0 30px;
+     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_title.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0 0;
+ }
+ .life_index_title div {
+     position: absolute;
+     top: 120px;
+     left:85px;
+     width: 120px;
+     height: 60px;
+     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_title1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 0 0;
+ }
+ #life_law{
+     background-color: #f6f6f6ab;
+ }
+ #life_service{
+     background-color: rgba(97, 70, 252, 0.521);
+     border-radius: 5px;
+ }

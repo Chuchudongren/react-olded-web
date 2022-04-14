@@ -1,0 +1,14 @@
+.wrapperClassName{
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+}
+.editorClassName{
+    height: 350px;
+    width: 100%;
+    font-size: 30px;
+    color: #000000;
+}
+.editorClassName::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,25 @@
+.news_search{
+    float: right;
+    border: 2px solid rgba(241, 47, 47, 0.37);
+    border-radius: 5px;
+}
+
+.news_search input{
+    width: 260px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.news_search div{
+    display: inline-block;
+    width: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.news_search div:hover{
+   color: blue;
+   cursor: pointer;
+}

@@ -1,0 +1,127 @@
+.health_msg_bg{
+    height: 2200px;
+    padding: 50px 0 0 0;
+}
+.health_msg_bg .container {
+    padding:0;
+    height: 2000px;
+}
+.health_msg_header{
+    width: 100%;
+    height: 120px;
+}
+.health_msg_header .ant-select-selector{
+    float: left;
+    width: 900px !important;
+    height: 80px !important;
+    border-radius: 50px !important;
+}
+.health_msg_header .ant-select-selection-search input{
+    font-size: 40px !important;
+    padding:0 20px !important;
+    height: 80px !important;
+    line-height:80px;
+}
+.health_msg_header .ant-select-selection-placeholder {
+    display: inline-block;
+    margin: 12px 0  0 20px;
+    line-height: 50px;
+    font-size: 40px !important;
+}
+.health_msg_header button {
+    width: 220px;
+    height: 80px;
+    margin: 0 20px 0 0;
+    background-color: #229cff;
+    border: 1px solid rgb(46, 224, 255);
+    color: #fff;
+    font-size: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    float: right;
+    border-radius: 50px;
+}
+.ant-select-dropdown{
+    border-radius: 5px !important;
+
+}
+.rc-virtual-list-holder-inner{
+    padding: 0 20px !important;
+}
+.rc-virtual-list-holder-inner .ant-select-item .ant-select-item-option-content{ 
+    height: 50px !important;
+    line-height: 50px !important;
+    font-size: 30px !important;
+}
+
+
+.health_msg_his_del{
+    float: right;
+    margin: 2px  0 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 40px;
+}
+.health_msg_his_del:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+/* 正文部分 */
+.health_msg_section{
+    height: 1800px;
+    background-color: rgba(255, 255, 255, 0.767);
+    border: 1px solid red;
+    padding:10px;
+    border-radius: 10px;
+}
+.health_msg_news .ant-divider-horizontal.ant-divider-with-text{
+    border-top-color:red;
+}
+.health_msg_news .ant-divider-inner-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.health_msg_news ul{
+    width: 100%;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius:10px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.health_msg_news ul li {
+    float: left;
+    width: 48%;
+    margin: 10px 10px ;
+    height: 50px;
+    font-size: 26px;
+    line-height: 50px;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.health_msg_news ul li::before{
+    content: "*";
+    text-align: center;
+    display: inline-block;
+    width:20px;
+    height: 60px;
+    color: red;
+}
+.health_msg_news ul li:hover{
+    cursor: pointer;
+    color: rgb(255, 98, 98);
+    text-decoration: underline;
+    margin: 9px 10px 11px 10px ;
+    
+}
+.health_msg_news ul li:active{
+    margin:10px;
+}

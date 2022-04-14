@@ -1,0 +1,235 @@
+.service_bg{
+    width: 100%;
+    min-height: 1350px;
+}
+.service_container{
+    width: 1300px;
+    height: 1200px;
+    background-color: #f7f0f7d8;
+    padding: 0;
+    margin: 0 0 0 120px;
+    border: 1px solid #ec67ecf8;
+}
+.service_goback{
+    width: 120px;
+    height: 120px;
+    background-color:#ec67ecf8;
+    position: absolute;
+    top: 150px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    border-radius: 20px;
+    border: 2px solid pink;
+    color: rgb(248, 244, 0);
+}
+.service_tab{
+    height: 140px;
+}
+.service_tab .ant-tabs-nav-wrap{
+    background-color: #fac9faec;
+}
+.service_tab .ant-tabs-tab{
+    width: 240px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #fac9faec !important;
+    border: none !important;
+    /* border: 1px solid #fa8f99 !important; */
+    margin: 0 !important;
+}
+.service_tab .ant-tabs-tab-active{
+    border-bottom: none !important;
+    background-color: #f7f0f7d8 !important;
+}
+.service_tab .ant-tabs-nav{
+    margin: 0 !important;
+}
+.service_tab .ant-tabs-tab .ant-tabs-tab-btn{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+/* 次级导航栏 */
+.service_categoryid{
+    height: 60px;
+}
+.service_categoryid .ant-tabs-nav-wrap{
+    margin-top:10px !important;
+    background-color: transparent !important; 
+}
+.service_categoryid .ant-tabs-tab{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px !important;
+    background-color: transparent !important;
+    border: none !important;
+    /* border: 1px solid #fa8f99 !important; */
+    margin: 0 !important;
+}
+
+.service_categoryid .ant-tabs-ink-bar{
+    width: 100px !important;
+    margin: 0 0 0 17px !important;
+    background-color: #ec67ecf8 !important;
+}
+
+/* 主体部分 */
+.service_list{
+    height: 1050px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    overscroll-behavior: contain;
+}
+.service_list::-webkit-scrollbar{
+    width: 5px;
+}
+.service_list::-webkit-scrollbar-thumb{
+    background-color: #fac9fa;
+    background-clip: padding-box;
+}
+/* 当前位置 */
+.service_local{
+    z-index: 100;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    font-size: 20px;
+}
+.service_local span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* 列表 */
+
+.service_item{
+    width: 1300px;
+    height: 300px;
+    border-radius:5px;
+    padding: 10px;
+    border: 1px solid #ec5f95a2;
+    margin: 10px 0;
+    background-color: #f6e4eba2;
+}
+.service_item img{
+    float: left;
+    width: 400px;
+    height: 280px;
+    border-radius: 5px;
+    margin: -1px 0 0 -1px;
+}
+.service_right{
+    position: relative;
+    float: left;
+    width: 860px;
+    height: 280px;
+    margin: 0 0 0 10px;
+}
+.service_title{
+    width: 27em;
+    font-size: 30px;
+    margin-bottom: 10px;
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+     /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+     -webkit-line-clamp: 2; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.service_title:hover{
+    cursor: pointer;
+}
+.service_area{
+    font-size: 25px;
+    height: 80px;
+    /* 多行文本省略号 */
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+    /*! autoprefixer: ignore next */
+-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /** 显示的行数 **/
+    overflow: hidden; /** 隐藏超出的内容 **/
+}
+.service_area span{
+    font-size: 20px;
+    color: #111;
+}
+.service_company{
+    font-size: 25px;
+    margin: 4px 0 0 20px;
+    color:rgb(66, 66, 66);
+}
+.service_company:hover{
+    cursor: pointer;
+}
+.service_tag{
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    height: 50px;
+}
+.service_tag span{
+    font-size: 20px;
+    color: red;
+    line-height: 1em;
+    padding:2px;
+    margin: 10px;
+}
+.service_tag span:hover{
+    cursor:grabbing;
+}
+
+
+.service_btn{
+    float: right;
+    width: 300px;
+    height: 70px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    background-color: orange;
+    font-size: 30px;
+    color: #fff;
+    margin: -40px 10px 0 0 ;
+}
+
+
+.service_model_tel{
+    font-size: 30px !important;
+}
+.service_model_tel span {
+    font-size: 34px;
+    color: red;
+}
+.service_model_readbtn{
+    width: 240px;
+    height: 60px;
+    float: right;
+    margin: 0 40px 0 0 ;
+    font-size: 30px;
+    background-color: rgb(104, 255, 205);
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 30px;
+    color: rgb(216, 39, 69);
+}   
+.service_model_2dcode{
+    height: 400px;
+    text-align: center;
+}
+.service_model_2dcode span {
+    display: block;
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    line-height: 70px;
+}
+.service_model_2dcode img{
+    width: 300px;
+    height: 300px;
+}

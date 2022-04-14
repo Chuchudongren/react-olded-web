@@ -1,0 +1,140 @@
+.msg_search_bg{
+    height: 2000px;
+}
+.msg_search_bg .container {
+    padding: 0px;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(to bottom,rgb(190, 199, 250),rgb(170, 181, 243),rgb(225, 229, 252));
+}
+.msg_search_header {
+    padding: 10px 30px;
+    width: 100%;
+}
+.msg_search_header span{
+    font-size: 36px;
+    font-weight: normal;
+}
+.msg_search_header .msg_search_back:hover{
+    color: red;
+    cursor: pointer;
+}
+.msg_search_header .msg_search_gt{
+    margin:0 20px;
+}
+.msg_search_header .ant-divider-horizontal.ant-divider-with-text{
+    border-top-color:red;
+}
+.msg_search_header .ant-divider-inner-text{
+    font-size: 45px;
+    font-weight: 700;
+}
+.msg_search_main .ant-table{
+    background-color: rgba(225, 229, 252, 0.692);
+}
+.msg_search_main .ant-table-placeholder{
+    height: 500px;
+}
+/* 数据为空时 */
+.msg_search_main .ant-empty{
+    margin-top:-180px;
+}
+.msg_search_main .ant-empty-description{
+    font-size: 40px;
+    line-height: 90px;
+    color: rgb(214, 160, 160);
+}
+.msg_search_main .ant-empty-img-simple{
+    width: 300px;
+    height: 300px;
+}
+/*  */
+.msg_search_main .ant-table-thead .ant-table-cell{
+    font-size: 30px;
+    color: red;
+    background-color: rgba(249, 230, 255, 0.541) !important;
+}
+.msg_search_main .ant-table-thead .ant-table-cell:first-child{
+    border-radius: 20px  0 0 20px;
+}
+.msg_search_main .ant-table-thead .ant-table-cell:last-child{
+    border-radius: 0 20px 20px 0;
+}
+.msg_search_main  .msg_search_title{
+    display: inline-block;
+    width: 18em;
+    position: relative;
+    padding: 0 0 0 30px;
+    font-size: 24px;
+    line-height: 1.2em;
+     /* 多行文本省略号 */
+     word-break: break-all;
+     text-overflow: ellipsis;
+     display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+     /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;   
+     /* autoprefixer: on *//** 设置或检索伸缩盒对象的子元素的排列方式 **/
+     -webkit-line-clamp: 2; /** 显示的行数 **/
+     overflow: hidden; /** 隐藏超出的内容 **/
+}
+.msg_search_main .msg_search_title::before{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: rgb(255, 172, 172);
+    border-top-color: rgb(255, 121, 121);
+    border-left-color: rgb(255, 79, 79);
+    border-right-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    top: 13px;
+    left: 0;
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+.msg_search_main .msg_search_title:hover{
+    cursor: pointer;
+    color: magenta;
+}
+.msg_search_main .msg_search_title:hover:before{
+    transform: rotate(-360deg);
+}
+
+.msg_search_main .msg_search_intro{
+    display: inline-block;
+    font-size: 22px;
+    width: 24em;
+    line-height: 1.8em;
+    height: 4em;
+}
+.msg_search_main .msg_search_pushtime{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2em;
+}
+.msg_search_main .ant-pagination{
+    padding: 0 20px 0 0;
+}
+.msg_search_main .ant-pagination-item-link{
+    border-radius: 50% !important;
+    width: 70px !important;
+    height: 70px !important;
+    text-align: center;
+    line-height:1.5em;
+}
+.msg_search_main .ant-pagination-item-link svg{
+    width: 40px !important;
+    height: 40px !important;
+}
+.msg_search_main .ant-pagination-item{
+    border-radius: 50%;
+    width: 70px !important;
+    height: 70px !important;
+}
+.msg_search_main .ant-pagination-item a{
+    font-size: 30px;
+    line-height: 60px;
+}

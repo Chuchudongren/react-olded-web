@@ -1,0 +1,218 @@
+.volunt_detail_bg{
+    width: 100%;
+    min-height:1600px;
+    padding: 0 0 100px 0;
+}
+.volunt_detail_header{
+    position: relative;
+    height: 400px;
+}
+.volunt_detail_goback{
+    position: absolute;
+    height: 80px;
+    width: 400px;
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/news/news_detail_goBack.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    top: 300px;
+    left: 50px;
+}
+.volunt_detail_goback:hover{
+    cursor: pointer;
+}
+.volunt_detail_main{
+    padding: 100px 0 0 0;
+    background-color: #fff;
+}
+.volunt_detail_container{
+    padding: 0;
+    width: 1180px;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+/* 正文部分 */
+.volunt_detail_top{
+    height: 300px;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+.volunt_detail_top img{
+    float: left;
+    width: 500px;
+    height: 280px;
+    margin: 10px;
+}
+.volunt_detail_info{
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+.volunt_detail_info span {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(38, 13, 129);
+    margin: 10px 0 0 0;
+}
+.volunt_detail_info ul {
+    float: left;
+    width: 340px;
+    height: 200px;
+    margin: 15px 0 0 10px;
+}
+.volunt_detail_info ul li {
+    font-size: 20px;
+}
+.volunt_detail_info button{
+    margin: 20px 0 0 20px;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(248, 178, 26);
+    border-radius:50px;
+    font-size: 30px;
+    color: #fff;
+}
+.volunt_detail_info button:hover{
+    background-color: rgb(248, 126, 26);
+}
+.volunt_detail_collect svg{
+    color: rgb(241, 241, 21) !important;
+    font-size: 60px !important;
+    margin: 40px 20px 0 0 !important;
+}
+.volunt_detail_discollect svg{
+    color: rgb(241, 241, 21) !important;
+    font-size: 60px !important;
+    margin: 40px 20px 0 0 !important;
+}
+.volunt_detail_discollect svg path:first-child{
+    fill: rgb(255, 255, 255);
+}
+.volunt_detail_discollect svg path:last-child{
+    fill: orange;
+}
+.volunt_detail_collect svg path:first-child{
+    fill: orange;
+}
+.volunt_detail_collect svg path:last-child{
+    fill: orange;
+}
+.volunt_detail_collect:hover{
+    cursor: pointer;
+
+}
+
+/* 中间部分 */
+.volunt_detail_content{
+    width: 100%;
+    height: 600px;
+}
+.volunt_detail_map{
+    float: left;
+    width: 540px;
+    height: 600px;
+}
+.volunt_detail_map span {
+    font-size: 26px;
+    display: block;
+    margin:  10px 20px;
+}
+.volunt_detail_map>div {
+    margin: 20px 0 0 20px;
+}
+
+.volunt_detail_right{
+    padding: 10px 0 0 0;
+    float: left;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+.volunt_detail_right span{
+    font-size: 26px;
+}
+
+/* 底部 */
+.volunt_detail_people{
+    width: 100%;
+    height: 300px;
+}
+.volunt_detail_people span{
+    display: block;
+    margin: 10px 0 0 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.volunt_detail_people ul {
+    width: 1100px;
+    height: 200px;
+    background-color: rgba(230, 230, 230, 0.562);
+    margin: 15px 0 0 20px;
+    border-radius:10px;
+}
+.volunt_detail_people ul li {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.volunt_detail_people ul li span {
+    border:1px solid rgb(255, 230, 1);
+}
+.volunt_detail_people ul li span:hover{
+    cursor: pointer;
+}
+
+.volunt_detail_modal{
+    height: 160px;
+}
+.volunt_detail_modal span{
+    display: block;
+    font-size: 30px;
+}
+.volunt_detail_modal button{
+    float: right;
+    width: 160px;
+    height: 50px;
+    background-color: antiquewhite;
+    color: rgb(216, 32, 32);
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 50px 20px 0 0;
+}
+.volunt_detail_modal button:nth-child(2){
+    background-color: rgb(199, 199, 199);
+    color: rgb(0, 0, 0);
+}
+
+.volunt_apply_modal{
+     padding: 0 0 90px 0;
+}
+.volunt_apply_modal span {
+    font-size: 29px;
+    color: rgb(233, 60, 60);
+    display: block;
+    margin: 0 0 10px 0;
+}
+.volunt_apply_modal p{
+    font-size: 20px;
+}
+.volunt_apply_modal button{
+    float: right;
+    margin: 10px 20px 0 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 28px;
+}
+.volunt_apply_modal_agree{
+    
+    background-color: antiquewhite;
+    color: rgb(216, 32, 32);
+ 
+}
+.volunt_apply_modal_wait{
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+}
+.volunt_apply_modal_wait:hover{
+    cursor:none;
+}

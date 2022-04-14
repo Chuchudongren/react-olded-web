@@ -1,0 +1,30 @@
+.news{
+    position: relative;
+    width: 1400px;
+    height: 960px;
+    padding-top: 90px;
+    left: 50%;
+    top:80px;
+    margin-left:-700px;
+    overflow: hidden;
+}
+.news_left{
+    float: left;
+    width: 50%;
+    height: 650px;
+}
+.news_img{
+    margin: 10px;
+    width: 680px;
+    height: 280px;
+    object-fit: cover;
+}
+.news_right{
+    float: left;
+    width: 50%;
+    height: 650px;
+}
+.tab button{
+    float: left;
+    background-color: transparent;
+}
