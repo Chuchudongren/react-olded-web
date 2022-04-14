@@ -15,7 +15,6 @@ function Hospital(props) {
   const [noRead, setNoRead] = useState(false);
   const token = qs.parse(localStorage.getItem('token'))
   const list = useRef()
-  const page = useRef()
   useEffect(() => {
     props.changeBackgroundAction('health_index')
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -95,7 +94,7 @@ function Hospital(props) {
     }
   }
   return (
-    <div ref={page} onWheel={e => { onPageWheel(e) }} className="hospital_bg">
+    <div onWheel={e => { onPageWheel(e) }} className="hospital_bg">
       <div className="hospital_local">
         <b>{token && typeof token.ad_info !== "undefined" && typeof token.ad_info.city !== "undefined" ? token.ad_info.city : '未知'}</b> <span>[切换城市]</span>
       </div>

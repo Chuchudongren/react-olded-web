@@ -128,7 +128,10 @@ function VlountDetail(props) {
                         <span>参与者:</span>
                         <ul key={isJoin} >
                             {partners && partners.length > 0 ? partners.map(item =>
-                                <li key={item.userid}>
+                                <li onClick={() => {
+                                    navigate('/my/' + item.userid)
+                                    document.getElementById('scrollTop').scrollIntoView(true)
+                                }} key={item.userid}>
                                     <Avatar
                                         size={64}
                                         src={item.avatar}

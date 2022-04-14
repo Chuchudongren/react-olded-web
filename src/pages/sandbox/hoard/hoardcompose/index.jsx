@@ -33,7 +33,8 @@ export default function Add(props) {
         } else if (content.length <= 8) {
             message.error('内容不能为空！')
         } else {
-            if (params.topicid !== -1) {
+            if (params.topicid !== '-1') {
+                console.log(params.topicid);
                 axios.post('/hoard/updateTopic', qs.stringify({ userid: token.userid, content, title: title.current.value, topicid: params.topicid })).then(res => {
                     if (res.data.status === 200) {
                         notification.info({

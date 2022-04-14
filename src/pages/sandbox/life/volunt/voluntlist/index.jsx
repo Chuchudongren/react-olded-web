@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { connect } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { Menu, Dropdown } from 'antd';
@@ -12,6 +12,7 @@ function VlountList(props) {
     const [voluntStatus, setVoluntStatus] = useState('进行中')
     const [voluntTime, setVoluntTime] = useState('不限时间')
     const [data, setData] = useState([])
+    const list = useRef()
     useEffect(() => {
         props.changeBackgroundAction('vlount_list')
         // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -59,8 +60,23 @@ function VlountList(props) {
             </Menu.Item>
         </Menu>
     )
+    const onPageWheel = (e) => {
+        if (e.nativeEvent.deltaY >= 0) {
+            if (Math.round(list.current.scrollTop + list.current.clientHeight) === list.current.scrollHeight) {
+                list.current.style.overflowY = 'hidden'
+            } else {
+                list.current.style.overflowY = 'scroll'
+            }
+        } else {
+            if (list.current.scrollTop === 0) {
+                list.current.style.overflowY = 'hidden'
+            } else {
+                list.current.style.overflowY = 'scroll'
+            }
+        }
+    }
     return (
-        <div className="volunt_list_bg">
+        <div onWheel={e => { onPageWheel(e) }} className="volunt_list_bg">
             <div className="volunt_list_header">
                 <div></div>
                 <div onClick={() => {
@@ -81,7 +97,7 @@ function VlountList(props) {
                             </div>
                         </Dropdown>
                     </div>
-                    <div className="volunt_list_list">
+                    <div ref={list} className="volunt_list_list">
 
                         {data.map((item) =>
                             <div key={item.voluntid} className="volunt_list_item">

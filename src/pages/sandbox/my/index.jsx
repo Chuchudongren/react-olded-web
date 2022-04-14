@@ -11,6 +11,7 @@ import Msg from './msg'
 import Volunt from './volunt'
 import { createFromIconfontCN } from '@ant-design/icons';
 import './index.css'
+import { message } from 'antd'
 
 const IconFont = createFromIconfontCN({
   scriptUrl: [
@@ -21,9 +22,9 @@ const IconFont = createFromIconfontCN({
 function My(props) {
   const params = useParams()
   const token = qs.parse(localStorage.getItem('token'))
-
   const [nav, setNav] = useState(0)
   const [infoData, setInfoData] = useState({})
+  const [isAttention, setIsAttention] = useState(false)
   const navs = useRef()
   // 设置背景图片和背景音乐的切换
   useEffect(() => {
@@ -36,15 +37,30 @@ function My(props) {
       setInfoData(res.data.result);
     })
     if (params.id !== token.userid) {
+      axios.post('/my/isAttention', qs.stringify({ id: params.id, userid: token.userid })).then(res => {
+        if (res.data.status === 200) {
+          setIsAttention(res.data.isAttention)
+        }
+      })
     }
     navs.current.childNodes[nav].childNodes[0].className = 'my_nav_btn_active'
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [isAttention, params.id])
   // 切换导航的函数
   const turnNav = (index) => {
     navs.current.childNodes[nav].childNodes[0].className = ''
     navs.current.childNodes[index].childNodes[0].className = 'my_nav_btn_active'
     setNav(index)
+  }
+  // 关注用户
+  const attentionUser = (boolean) => {
+    console.log(boolean);
+    axios.post('/my/addAttention', qs.stringify({ id: params.id, userid: token.userid, boolean })).then(res => {
+      message.success(res.data.message)
+      if (res.data.status === 200) {
+        setIsAttention(boolean)
+      }
+    })
   }
   return (
     <div className="container my_bg">
@@ -53,15 +69,24 @@ function My(props) {
           {
             infoData !== {} ?
               <>
+                {console.log(infoData)}
                 <div><img src={infoData.avatar} alt="" /></div>
                 <h1>{infoData.nickname}</h1>
                 <span>关注：<b>{infoData.attention}</b></span>
                 <span>粉丝：<b>{infoData.fans}</b></span>
                 {
                   !token.userid || params.id !== token.userid ?
-                    <i>
-                      <IconFont type='icon-kehuguanzhu' />
-                    </i>
+                    <>
+                      {
+                        isAttention ?
+                          <i onClick={() => { attentionUser(false) }} >
+                            <IconFont type='icon-yiguanzhu' />
+                          </i>
+                          : <i onClick={() => { attentionUser(true) }}>
+                            <IconFont type='icon-kehuguanzhu' />
+                          </i>
+                      }
+                    </>
                     : <></>
                 }
               </>

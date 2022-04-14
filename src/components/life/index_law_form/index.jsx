@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Modal, Row, Col, Form, Input, Select, Radio, message } from 'antd';
 import './index.css'
-import { porvince } from '../../pro'
+import { province } from '../../pro.js'
 import axios from 'axios'
 import qs from 'qs'
 import TestReg from '../../../components/testReg'
@@ -33,7 +33,7 @@ export default function IndexLawForm(props) {
         lawFormRef.current.setFieldsValue({
             city: '',
         });
-        let currentPro = porvince.filter(item => item.name === value)[0].city
+        let currentPro = province.filter(item => item.name === value)[0].city
         setCity(currentPro)
     }
     return (
@@ -78,7 +78,7 @@ export default function IndexLawForm(props) {
                                 allowClear
                             >
                                 {
-                                    porvince.map(item =>
+                                    province.map(item =>
                                         <Option style={{ width: '200px' }} key={item.name} value={item.name}>{item.name}</Option>
                                     )
                                 }

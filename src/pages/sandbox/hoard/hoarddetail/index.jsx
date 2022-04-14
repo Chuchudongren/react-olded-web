@@ -156,6 +156,7 @@ function HoardDetail() {
 
                 typeof allData !== 'undefined' && allData !== {} ?
                     <div className="hoard_detail_body">
+                        {console.log(allData)}
                         <header className="msg_detail_header">
                             <span onClick={() => { navigate('/hoard') }} className="msg_detail_back"><ReadOutlined />论坛首页</span><span>&gt;&gt;&gt;</span><span>{allData.hoardcate}</span>
                         </header>
@@ -163,7 +164,7 @@ function HoardDetail() {
                             <div className="hoard_detail_title"><span>{allData.title}</span></div>
                             <div className="hoard_detail_info">
                                 <h2 className={allData.ishot ? 'hoard_detail_hot' : 'hoard_detail_nohot'}><IconFont type="icon-huo" /> </h2>
-                                <h2>楼主:<span><a>{allData.nickname}</a></span></h2>
+                                <h2>楼主:<span><a href={"/my/" + allData.userid}>{allData.nickname}</a></span></h2>
                                 <h2>时间:<span>{allData.pushtime}</span></h2>
                                 <h2>点击量:<span>{allData.hits}</span></h2>
                             </div>
@@ -186,7 +187,7 @@ function HoardDetail() {
                                     <div className="hoard_detail_followtopic" key={item.topicfollowid}>
                                         <header className="hoard_detail_followtopic_header">
                                             <span className="hoard_detail_followtopic_type">{item.isMain ? '楼主' : '作者'}</span>
-                                            <span className="hoard_detail_followtopic_nickname"><a>{item.nickname}</a></span>
+                                            <span className="hoard_detail_followtopic_nickname"><a href={"/my/" + item.userid}>{item.nickname}</a></span>
                                             <span className="hoard_detail_followtopic_pushtime">时间:<span>{item.pushtime}</span></span>
                                         </header>
                                         <section className="hoard_detail_followtopic_content">
@@ -196,7 +197,7 @@ function HoardDetail() {
                                                     item.commentdata && typeof item.commentdata !== 'undefined' ?
                                                         item.commentdata.map(item1 =>
                                                             <div className="hoard_detail_comment" key={item1.topiccommentid}>
-                                                                <span className="hoard_detail_comment_nickname"><a>{item1.nickname}</a></span>
+                                                                <span className="hoard_detail_comment_nickname"><a href={"/my/" + item1.userid}>{item1.nickname}</a></span>
                                                                 <span className="hoard_detail_comment_pushtime">{item1.pushtime}</span>
                                                                 <div className="clearfix"></div>
                                                                 <div className="hoard_detail_comment_content">{item1.content}</div>
@@ -210,7 +211,7 @@ function HoardDetail() {
                                                                             item1.sonComment && typeof item1.sonComment !== 'undefined' ?
                                                                                 item1.sonComment.map(item2 =>
                                                                                     <div className="hoard_detail_soncomment" key={item2.topiccommentid}>
-                                                                                        <span className="hoard_detail_soncomment_nickname"><a>{item2.nickname}</a></span>
+                                                                                        <span className="hoard_detail_soncomment_nickname"><a href={"/my/" + item2.userid}>{item2.nickname}</a></span>
                                                                                         <span className="hoard_detail_soncomment_pushtime">{item2.pushtime}</span>
                                                                                         <div className="clearfix"></div>
                                                                                         <div className="hoard_detail_soncomment_content">{item2.content}</div>
