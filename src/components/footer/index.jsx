@@ -4,8 +4,6 @@ import './index.css'
 import {
   QqOutlined,
   WechatOutlined,
-  WeiboOutlined,
-  AlipayOutlined,
 } from '@ant-design/icons'
 function Footer() {
   return (
@@ -63,18 +61,6 @@ function Footer() {
                 <span>微信</span>
                 <br />
                 <WechatOutlined style={{ fontSize: '50px' }} />
-              </a>
-            </div>
-            <div className="social">
-              <a href="http://localhost:3000/" className="wb">
-                <span>新浪微博</span>
-                <br />
-                <WeiboOutlined style={{ fontSize: '50px' }} />
-              </a>
-              <a href="http://localhost:3000/" className="dy">
-                <span>支付宝</span>
-                <br />
-                <AlipayOutlined style={{ fontSize: '50px' }} />
               </a>
             </div>
           </Col>

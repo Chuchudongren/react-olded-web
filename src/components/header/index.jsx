@@ -44,38 +44,41 @@ function Header() {
             </button>
           )}
 
-          <div className={styles.avatar}>
-            <Dropdown
-              className={styles.dropdown}
-              overlay={
-                <div
-                  onClick={() => {
-                    localStorage.setItem('token', {})
-                    navigate('/')
-                  }}
-                  className={styles.quit}
+          {
+            token.userid !== undefined ?
+              <><div className={styles.avatar}>
+                <Dropdown
+                  className={styles.dropdown}
+                  overlay={
+                    <div
+                      onClick={() => {
+                        localStorage.setItem('token', {})
+                        navigate('/')
+                      }}
+                      className={styles.quit}
+                    >
+                      <div className={styles.triangle}></div>
+                      退出登录
+                    </div>
+                  }
+                  placement="bottom"
                 >
-                  <div className={styles.triangle}></div>
-                  退出登录
-                </div>
-              }
-              placement="bottom"
-            >
-              <Avatar
-                size={64}
-                src={token.avatar}
-              />
-            </Dropdown>
-          </div>
-          <div
-            className={styles.username}
-            onClick={() => {
-              typeof token.userid !== 'undefined' && token.userid ?
-                navigate('/my/' + token.userid) : navigate('/user/login')
-            }}
-          >
-            个人中心
-          </div>
+                  <Avatar
+                    size={64}
+                    src={token.avatar}
+                  />
+                </Dropdown>
+              </div>
+                <div
+                  className={styles.username}
+                  onClick={() => {
+                    typeof token.userid !== 'undefined' && token.userid ?
+                      navigate('/my/' + token.userid) : navigate('/user/login')
+                  }}
+                >
+                  个人中心
+                </div></> : <></>
+          }
         </div>
       </div>
     </div>

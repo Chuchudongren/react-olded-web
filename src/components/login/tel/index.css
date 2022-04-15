@@ -1,5 +1,5 @@
 .sendCodeBtn{
-    background-color: #a0c9c1;
+    background-color: #5CBAB4;
     border-radius: 5px;
     width: 240px;
     height: 60px;
@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 .sendCodeBtn:hover{
-    border: 1px solid #a0c9c1;
+    border: 1px solid #5CBAB4;
 }
 
 .noReg{

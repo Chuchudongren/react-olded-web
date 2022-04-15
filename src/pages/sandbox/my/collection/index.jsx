@@ -30,9 +30,9 @@ function Collection() {
   return (
     <div className="my_collection_bg">
       <h1>我收藏的新闻</h1>
-      <Table rowKey={item => item.id} pagination={{ position: ['bottomCenter'], defaultPageSize: [5] }} columns={columns} dataSource={newsData} />
+      <Table rowKey={item => item.id} pagination={{ position: ['bottomCenter'], defaultPageSize: [4] }} columns={columns} dataSource={newsData} />
       <h1>我收藏的志愿活动</h1>
-      <Table rowKey={item => item.id} pagination={{ position: ['bottomCenter'], defaultPageSize: [5] }} columns={columns} dataSource={voluntData} />
+      <Table rowKey={item => item.id} pagination={{ position: ['bottomCenter'], defaultPageSize: [3] }} columns={columns} dataSource={voluntData} />
     </div>
   );
 }

@@ -95,7 +95,7 @@ export default function MyHome(props) {
         navigate('/life/volunt/info/' + token.userid)
     }
     return (
-        <>
+        <div className="my_right_bg">
             {
                 props.data !== undefined ?
                     <div>
@@ -213,7 +213,7 @@ export default function MyHome(props) {
                     </div>
                     : <></>
             }
-        </>
+        </div>
 
     )
 }

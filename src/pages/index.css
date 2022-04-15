@@ -4,14 +4,16 @@
 
 .background_user {
     width: 100%;
-    background-image: url('http://127.0.0.1:8002/uploads/body/login/login_bg.jpg');
+    background-image: linear-gradient(to right top, #5cbab4, #54bbb5, #4cbcb5, #42bcb6, #37bdb6, #3ac1ba, #3ec5bd, #41c9c1, #53d1c9, #63d9d0, #71e1d8, #7fe9e0);
+    /* background-color: #9e91e0; */
+    /* background-image: url('http://127.0.0.1:8002/uploads/body/login/login_bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .background_index {
     width: 100%;
-    /* background-image: url('http://127.0.0.1:8002/uploads/body/index/index_bg.png'); */
+    /* background-image: linear-gradient(to right top, #5cbab4, #54bbb5, #4cbcb5, #42bcb6, #37bdb6, #3ac1ba, #3ec5bd, #41c9c1, #53d1c9, #63d9d0, #71e1d8, #7fe9e0); */
     background-image: url('http://127.0.0.1:8002/uploads/body/index/health/health_bg2.png');
     background-repeat: no-repeat;
     background-size: 100% 1020px;
@@ -81,6 +83,7 @@
 }
 .background_hoard_index{
     width: 100%;
+    /* background-image: linear-gradient(to right top, #ffdcec, #ffdae4, #ffd8dc, #ffd7d4, #ffd7cd, #ffd7c6, #ffd8be, #ffd9b7, #ffdaad, #ffdca3, #ffdf9a, #ffe290); */
     background-image:url('http://127.0.0.1:8002/uploads/body/index/hoard/hoard_bg.png');
     background-repeat: no-repeat;
     background-size:100% 100%;
@@ -88,8 +91,9 @@
 }
 .background_my_index{
     width: 100%;
+    /* background-image: linear-gradient(to right top, #4585ff, #4c8eff, #5598ff, #5fa0ff, #6aa9ff, #6db1ff, #72b8ff, #79bfff, #7cc7ff, #81ceff, #88d5ff, #91dcff); */
     background-image:url('http://127.0.0.1:8002/uploads/body/index/my/my_bg1.jpg');
     background-repeat: no-repeat;
     background-size:100% auto;
-    background-position: 0 -900px;
+    background-position: 0 -800px;
 }

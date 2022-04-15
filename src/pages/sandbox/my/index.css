@@ -1,14 +1,14 @@
 .my_bg{
     padding: 0;
     margin-top: 30px;
-    height: 1300px;
+    height: 1320px;
 }
 /* 左侧 */
 .my_left{
     float: left;
     width: 280px;
-    height: 800px;
-    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgb(125, 232, 247),rgb(125, 232, 247),rgba(24, 111, 164, 0.26));
+    height: 920px;
+    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgb(125, 232, 247),rgb(125, 232, 247),rgba(67, 212, 231, 0.699),rgba(54, 205, 224, 0.418));
     border-radius:15px;
     padding: 10px 0;
 }
@@ -94,7 +94,7 @@
 /* 右边 */
 .my_right{
     width: 860px;
-    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgba(24, 111, 164, 0.26));
+    background-image: linear-gradient(to bottom,rgb(125, 232, 247),rgba(133, 193, 231, 0.466));
     float: right;
     border-radius:20px;
     overflow: hidden;

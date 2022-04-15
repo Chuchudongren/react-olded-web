@@ -74,7 +74,7 @@ function Hoard(props) {
         </header>
         <section className="hoard_section">
           <ul ref={menu} className="hoard_menu">
-            <li>老来乐</li>
+            <li>分类</li>
             {
               cateList && cateList.length > 0 ?
                 cateList.map(item =>

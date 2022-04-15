@@ -4,7 +4,7 @@
 }
 .login_core{
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.582);
     border-radius: 10px;
     width: 800px;
     height: 450px;
@@ -23,11 +23,11 @@
 
 }
 .item1:hover{
-    color:#a0c9c1 ;
+    color:#5CBAB4 ;
     cursor: pointer;
 }
 .item2:hover{
-    color:#a0c9c1 ;
+    color:#5CBAB4 ;
     cursor: pointer;
 }
 .division {
@@ -46,7 +46,7 @@
     margin-left: 15px;
     border-radius:10px;
     height: 5px;
-    background-color: #a0c9c1;
+    background-color: #5CBAB4;
 }
 
 .current_right{
@@ -57,7 +57,7 @@
     margin-left: 15px;
     border-radius:10px;
     height: 5px;
-    background-color: #a0c9c1;
+    background-color: #5CBAB4;
 }
 
 /* 中间 账号登录 部分 */
@@ -75,7 +75,7 @@
     bottom: 0;
 }
 .btn1:hover,.btn2:hover{
-    color: #a0c9c1;
+    color: #5CBAB4;
 }
 .btn1{
     float: left;

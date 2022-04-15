@@ -1,16 +1,17 @@
 .hoard_bg .container{
     padding:0;
+    padding-bottom:60px;
 }
 /* 头部标题 */
 .hoard_title{
-    height: 140px;
+    height: 160px;
     overflow: hidden;
 }
 .hoard_title img{
     display: block;
     width: 540px;
     height: 120px;
-    background-image: linear-gradient(to right,rgb(255, 227, 227),rgb(210, 255, 204));
+    background-image: linear-gradient(to right,rgba(255, 227, 227, 0.548),rgba(210, 255, 204, 0.507));
     padding: 20px;
     border-radius: 20px;
     margin: 15px auto;
@@ -19,7 +20,9 @@
 /* 正文 */
 .hoard_section{
     height: 1350px;
-    background-color: rgba(199, 213, 250, 0.596);
+    border-radius:10px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom,#bbc3f8b7,rgba(198, 205, 250, 0.76),rgba(181, 190, 250, 0.815));
 }
 /* 左侧菜单 */
 .hoard_menu{
@@ -49,7 +52,13 @@
     font-size: 40px;
     text-align: center;
     line-height: 80px;
-    background-image: linear-gradient(to bottom, rgb(255, 217, 217),rgb(245, 213, 253));
+    background-image: linear-gradient(to bottom, #d8d1ff,#b8c1fd);
+
+}
+.hoard_menu li:first-child:hover{
+    cursor: normal;
+    color: #000;
+    animation: none;
 }
 .hoard_menu li:hover{
     cursor: pointer;
@@ -57,7 +66,7 @@
     animation: hoverMenu 0.5s linear 10 alternate;
 }
 .hoard_menu .menu_active{
-    background-image: linear-gradient(to bottom, rgb(255, 115, 115),rgb(255, 166, 154));
+    background-image: linear-gradient(to bottom, #EFADF5,#FFA9D2);
 }
 .hoard_menu .menu_active:hover{
     cursor: pointer;
@@ -115,8 +124,7 @@
 }
 .hoard_list .ant-table{
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to bottom,rgba(169, 180, 252, 0.719),rgba(198, 205, 250, 0.76),rgba(122, 140, 255, 0.438));
-    /* background-color: rgba(225, 229, 255, 0.76); */
+    background-image: linear-gradient(to bottom,rgba(157, 185, 247, 0.719),rgba(198, 205, 250, 0.76),rgba(122, 140, 255, 0.438));
 }
 
 .hoard_list .ant-table-tbody tr .ant-table-cell-row-hover{
@@ -131,7 +139,7 @@
     font-size: 24px !important;
 }
 .hoard_list  .ant-table-thead tr th:nth-child(3){
-    width: 60px !important;
+    width: 70px !important;
     font-size: 20px !important;
 }
 .hoard_list  .ant-table-thead tr th:nth-child(4){

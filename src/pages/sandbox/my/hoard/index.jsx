@@ -112,11 +112,11 @@ function Hoard() {
     <div className="my_hoard_bg">
       <div className="my_hoard_topic">
         <h1>我发表的帖子</h1>
-        <Table rowKey={item => item.topicid} pagination={{ position: ['bottomCenter'], defaultPageSize: [5] }} columns={topicColumns} dataSource={topicData} />
+        <Table rowKey={item => item.topicid} pagination={{ position: ['bottomCenter'], defaultPageSize: [4] }} columns={topicColumns} dataSource={topicData} />
       </div>
       <div className="my_hoard_follow">
         <h1>我发表的跟帖</h1>
-        <Table rowKey={item => item.topicfollowid} pagination={{ position: ['bottomCenter'], defaultPageSize: [5] }} columns={followColumns} dataSource={followData} />
+        <Table rowKey={item => item.topicfollowid} pagination={{ position: ['bottomCenter'], defaultPageSize: [3] }} columns={followColumns} dataSource={followData} />
       </div>
     </div>
   );

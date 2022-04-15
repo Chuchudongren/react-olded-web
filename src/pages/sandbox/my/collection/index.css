@@ -1,3 +1,6 @@
+.my_collection_bg {
+    height: 890px;
+}
 .my_collection_bg h1{
     position: relative;
     display: block;
@@ -10,13 +13,14 @@
     color: rgb(110, 45, 170);
 }
 .my_collection_bg .ant-table-tbody tr .ant-table-cell-row-hover{
-    background-color: rgb(221, 215, 255) !important;
+    background-color: #ffffff60 !important;
 }
 .my_collection_bg .ant-table-wrapper{
     width: 100%;
     background-color: transparent;
     border-radius: 10px;
     overflow: hidden;
+    min-height:405px;
 }
 
 .my_collection_bg .ant-table{

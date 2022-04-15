@@ -48,7 +48,7 @@ function Volunt() {
   return (
     <div className="my_volunt">
       <h1>我参加的志愿活动</h1>
-      <Table rowKey={item => item.voluntid} pagination={{ position: ['bottomCenter'], defaultPageSize: [8] }} columns={topicColumns} dataSource={voluntData} />
+      <Table rowKey={item => item.voluntid} pagination={{ position: ['bottomCenter'], defaultPageSize: [12] }} columns={topicColumns} dataSource={voluntData} />
     </div>
   );
 }

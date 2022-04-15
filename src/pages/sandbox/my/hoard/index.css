@@ -1,3 +1,6 @@
+.my_hoard_bg{
+    height: 890px;
+}
 /* topic */
 .my_hoard_bg h1{
     position: relative;
@@ -15,6 +18,7 @@
     background-color: transparent;
     border-radius: 10px;
     overflow: hidden;
+    min-height:443px;
 }
 
 .my_hoard_bg .ant-table{
@@ -30,7 +34,7 @@
 }
 
 .my_hoard_bg .ant-table-tbody tr .ant-table-cell-row-hover{
-    background-color: rgb(221, 215, 255) !important;
+    background-color: #ffffff60 !important;
 }
 .my_hoard_bg .ant-table-tbody tr td{
     font-size: 18px;
@@ -116,9 +120,9 @@
     top: 9px;
 }
 .my_hoard_topic .topic_update{
-    background-color: rgb(225, 232, 255);
     font-size: 26px;
-    color: rgb(133, 57, 255);
+    color: #FFC8FF;
+    background-color: #FF4B70;
     position: absolute;
     width: 55px;
     height: 55px;
@@ -136,9 +140,9 @@
     border-radius:50%;
     top: 10px;
     left:90px;
-    background-color: rgb(225, 232, 255);
+    color: #ffe3ff;
+    background-color: #d47386;
     font-size: 26px;
-    color: rgb(133, 57, 255);
 }
 
 /* 分页的样式 */
@@ -186,10 +190,10 @@
     height: 50px;
     top: 5px;
     left:20px;
-    background-color: rgb(225, 232, 255);
+    color: #ffe3ff;
+    background-color: #d47386;
     font-size: 26px;
     border-radius: 5px;
-    color: rgb(133, 57, 255);
 }
 .my_hoard_follow .ant-table-tbody tr td a::before{
     content: " ";

@@ -1,3 +1,6 @@
+.my_msg{
+    height: 890px;
+}
 /* topic */
 .my_msg h1{
     position: relative;
@@ -30,7 +33,7 @@
 }
 
 .my_msg .ant-table-tbody tr .ant-table-cell-row-hover{
-    background-color: rgb(221, 215, 255) !important;
+    background-color: #ffffff60 !important;
 }
 .my_msg .ant-table-tbody tr td{
     font-size: 18px;

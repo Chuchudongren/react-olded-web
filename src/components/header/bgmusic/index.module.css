@@ -7,7 +7,7 @@
 .alert{
     display: inline-block;
     font-size: 20px;
-    color: #a0c9c1;
+    color: #363636;
     font-weight: 600;
     margin-bottom: 30px;
     margin-right: 10px;
@@ -18,7 +18,7 @@
     height: 50px;
     line-height: 50px;
     font-size: 50px;
-    color: #a0c9c1;
+    color: rgba(87, 87, 87, 0.938);
 }
 .span:hover{
     cursor:pointer 

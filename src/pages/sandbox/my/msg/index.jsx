@@ -72,7 +72,7 @@ function Msg() {
   ];
   return (
     <div className="my_msg">
-      <Table rowKey={item => item.messageid} pagination={{ position: ['bottomCenter'], defaultPageSize: [10] }} columns={topicColumns} dataSource={msgData} />
+      <Table rowKey={item => item.messageid} pagination={{ position: ['bottomCenter'], defaultPageSize: [12] }} columns={topicColumns} dataSource={msgData} />
     </div>
   );
 }
