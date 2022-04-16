@@ -57,6 +57,7 @@ export default function NewsListDisplay(props) {
     }
     const oneCollect = (newsid, iscollect) => {
         if (token.userid) {
+            console.log(iscollect);
             if (iscollect === 1) {
                 message.success('取消收藏成功！')
                 axios.post('/news/collect', qs.stringify({ newsid, value: -1, userid: token.userid }))
@@ -71,11 +72,12 @@ export default function NewsListDisplay(props) {
         }
     }
     return (
-        <div className="search_search_news_list_comment">
+        <div key={flash} className="container search_news_list_comment">
             {
                 nowData.length > 0 ? nowData.map((item) => {
                     return (
                         <div key={item.newsid} className="search_news_list_item">
+                            {console.log(nowData)}
                             <div className="search_item_left">
                                 <img src={item.pic} alt="" />
                             </div>
@@ -98,8 +100,8 @@ export default function NewsListDisplay(props) {
 
                                 <Space >
                                     <div className='search_item_btn'>
-                                        <div className={item.isGreat === 1 ? 'search_item_btn_active' : ''} onClick={() => { onegreat(item.newsid, item.isGreat) }}><IconFont className='search_icon-good' type="icon-good" /></div>
-                                        <div className={item.isCollect === 1 ? 'search_item_btn_active' : ''} onClick={() => { oneCollect(item.newsid, item.isCollect) }}><IconFont className='search_icon-collection' type="icon-collection" /></div>
+                                        <div className={item.isGreat === 1 ? 'isearch_tem_btn_active' : ''} onClick={() => { onegreat(item.newsid, item.isGreat) }}><IconFont className='search_icon-good' type="icon-good" /></div>
+                                        <div className={item.isCollect === 1 ? 'isearch_tem_btn_active' : ''} onClick={() => { oneCollect(item.newsid, item.isCollect) }}><IconFont className='search_icon-collection' type="icon-collection" /></div>
                                         <div onClick={() => { }}><IconFont className='search_icon-pinglun' type="icon-pinglun" /></div>
                                         <div><IconFont className='search_icon-zhuanfa' type="icon-zhuanfa" /></div>
                                     </div>

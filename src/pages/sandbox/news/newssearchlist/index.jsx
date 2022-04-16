@@ -19,13 +19,15 @@ function NewsSearch(props) {
     }, [])
     return (
         <div key={flash} className="news_search_container container">
-            <div onClick={() => {
-                navigate('/news')
-            }} className="news_search_goback"></div>
-            <div className='news_search_list_header'>
-                <input ref={input} type="text" /><div onClick={search} className='news_search_btn' >搜索</div>
+            <div className="news_search_top_header container">
+                <div onClick={() => {
+                    navigate('/news')
+                }} className="news_search_goback"></div>
+                <div className='news_search_list_header'>
+                    <input ref={input} type="text" /><div onClick={search} className='news_search_btn' >搜索</div>
+                </div>
+                <div className="news_search_list_title"></div>
             </div>
-            <div className="news_search_list_title"></div>
             <NewsSearchListDisplay searchkey={params.search} />
         </div>
     )
