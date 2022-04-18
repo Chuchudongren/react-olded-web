@@ -1,14 +1,13 @@
 .life_bg{
      width: 100%;
      background-color: #fde6e949;
-     height: 3530px;
 }
 .life_left{
      position: relative;
      background-color: #fcaab449;
      float: left;
      width: 420px;
-     height: 3530px;
+     height: 3230px;
 
 }
 .life_right{

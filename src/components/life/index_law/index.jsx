@@ -47,16 +47,16 @@ export default function IndexLaw() {
             <div className="index_law_carousel">
                 <Carousel autoplay >
                     <div>
-                        <img src="http://127.0.0.1:8003/pic/news/12.jpg" alt="" />
+                        <img src="http://127.0.0.1:8003/pic/life/law/law1.jpg" alt="" />
                     </div>
                     <div>
-                        <img src="http://127.0.0.1:8003/pic/news/12.jpg" alt="" />
+                        <img src="http://127.0.0.1:8003/pic/life/law/law2.jpg" alt="" />
                     </div>
                     <div>
-                        <img src="http://127.0.0.1:8003/pic/news/12.jpg" alt="" />
+                        <img src="http://127.0.0.1:8003/pic/life/law/law3.jpg" alt="" />
                     </div>
                     <div>
-                        <img src="http://127.0.0.1:8003/pic/news/12.jpg" alt="" />
+                        <img src="http://127.0.0.1:8003/pic/life/law/law4.jpg" alt="" />
                     </div>
                 </Carousel>,
             </div>
@@ -104,7 +104,7 @@ export default function IndexLaw() {
                                         dynamics[2].map((item, index) =>
                                             index < 6 ?
                                                 <Panel header={item.title} key={item.dynamicid}>
-                                                    <p>{item.content}</p>
+                                                    <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
                                                 </Panel> : console.log()
                                         )
                                         : <></>

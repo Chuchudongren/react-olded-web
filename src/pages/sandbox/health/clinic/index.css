@@ -125,39 +125,36 @@
 .clinic_data .ant-picker-input input{
     font-size: 30px;
 }
-.health_form3 .ant-picker-dropdown{
+.ant-picker-dropdown{
     width: 500px !important;
 }
-.health_form3 .ant-picker-header{
+.ant-picker-header{
     font-size: 30px !important;
     width: 500px !important;
 }
-.health_form3 .ant-picker-super-next-icon::after,.ant-picker-super-next-icon::before,.ant-picker-next-icon::before,.ant-picker-prev-icon::after,.ant-picker-super-prev-icon::before,.ant-picker-super-prev-icon::after,.ant-picker-prev-icon::before{
+.ant-picker-super-next-icon::after,.ant-picker-super-next-icon::before,.ant-picker-next-icon::before,.ant-picker-prev-icon::after,.ant-picker-super-prev-icon::before,.ant-picker-super-prev-icon::after,.ant-picker-prev-icon::before{
     width: 15px !important;
     height: 15px !important;
 }
-.health_form3 .ant-picker-content{
+.ant-picker-content{
     width: 480px !important;
 }
 
-.health_form3 .ant-picker-content tr th{
+.ant-picker-content tr th{
     text-align: center;
     font-size: 30px !important;
 }
-.health_form3 .ant-picker-content tr td{
+.ant-picker-content tr td{
     font-size: 30px !important;
 }
-.health_form3 .ant-picker-cell-inner:hover{
-    width: 30px !important;
-    height: 30px !important;
+.ant-picker-cell:hover{
+    background-color: #ccc !important;
+}
+.ant-picker-cell:hover .ant-picker-cell-inner{
     background-color: #ccc !important;
 }
 
-.health_form3 .ant-picker-footer-extra {
-    width: 500px !important;
-    text-align: center !important;
-    font-size: 28px;
-}
+
 /* 没登录 */
 .noLogin{
     font-size: 60px;

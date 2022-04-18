@@ -48,7 +48,7 @@ function LawDetail(props) {
                                 <>
                                     <span>工号:{data.adminid}</span>
                                     <div onClick={playpause}>语音朗读</div>
-                                    <p>&nbsp;&nbsp;&nbsp;{data.reply}</p>
+                                    <p dangerouslySetInnerHTML={{ __html: data.reply }}></p>
                                     <b>回复时间:{data.replytime}</b>
                                 </>
                             }

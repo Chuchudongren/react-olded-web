@@ -9,13 +9,14 @@ import Collection from './collection'
 import Hoard from './hoard'
 import Msg from './msg'
 import Volunt from './volunt'
+import Clinic from './clinic'
 import { createFromIconfontCN } from '@ant-design/icons';
 import './index.css'
 import { message } from 'antd'
 
 const IconFont = createFromIconfontCN({
   scriptUrl: [
-    '//at.alicdn.com/t/font_3249569_kz2y0sc9yf.js'
+    '//at.alicdn.com/t/font_3249569_bckwk3voitv.js'
   ],
 });
 
@@ -109,6 +110,7 @@ function My(props) {
                   <li><button onClick={() => { turnNav(2) }}><span><IconFont type='icon-luntan' />&nbsp;&nbsp;论&nbsp;&nbsp;坛</span></button></li>
                   <li><button onClick={() => { turnNav(3) }}><span><IconFont type='icon-liuyanban' />&nbsp;&nbsp;留&nbsp;&nbsp;言</span></button></li>
                   <li><button onClick={() => { turnNav(4) }}><span><IconFont type='icon-zhiyuan' />&nbsp;志愿活动</span></button></li>
+                  <li><button onClick={() => { turnNav(5) }}><span><IconFont type='icon-yuyuedingdan' />&nbsp;&nbsp;预&nbsp;&nbsp;约</span></button></li>
                 </>
                 : <></>
             }
@@ -123,6 +125,7 @@ function My(props) {
         {nav === 2 && <Hoard />}
         {nav === 3 && <Msg />}
         {nav === 4 && <Volunt />}
+        {nav === 5 && <Clinic />}
       </div>
     </div>
   )

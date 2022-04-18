@@ -255,7 +255,6 @@ function Clinic() {
       date: stepThreeDatas.date,
       timeslot: stepThreeDatas.time
     }
-
     axios.post('/health/setClinicRecord', qs.stringify(infos)).then(res => {
       if (res.data.status === 200) {
         message.success('提交成功，请到个人中心查看你的预约情况')
