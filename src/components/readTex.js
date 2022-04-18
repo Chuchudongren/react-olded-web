@@ -11,7 +11,6 @@ function toArrayBuffer(buf) {
 export default function readTex(tex) {
     console.log(tex);
     axios.post('/life/getMp3', qs.stringify({ tex })).then(res => {
-        console.log(res);
         var arrayBuf = toArrayBuffer(res.data.result.data)
         const audioContext = new AudioContext();
         const audioSource = audioContext.createBufferSource()

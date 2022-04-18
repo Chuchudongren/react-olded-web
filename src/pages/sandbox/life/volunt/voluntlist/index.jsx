@@ -99,7 +99,7 @@ function VlountList(props) {
                     </div>
                     <div ref={list} className="volunt_list_list">
 
-                        {data.map((item) =>
+                        {data && data.length > 0 ? data.map((item) =>
                             <div key={item.voluntid} className="volunt_list_item">
                                 <div className="volunt_list_left">
                                     <img src={item.pic} alt="" />
@@ -121,8 +121,7 @@ function VlountList(props) {
                                     <button onClick={() => { navigate('/life/volunt/' + item.voluntid) }}>查看</button>
                                 </div>
                             </div>
-                        )
-
+                        ) : <></>
                         }
 
                     </div>

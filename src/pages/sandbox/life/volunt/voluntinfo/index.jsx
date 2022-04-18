@@ -5,7 +5,7 @@ import qs from 'qs'
 import { useParams } from 'react-router-dom'
 import { changeBackgroundAction } from '../../../../../redux/action/action'
 import './index.css'
-import { porvince } from './pro'
+import { province } from '../../../../../components/pro'
 import TestReg from '../../../../../components/testReg'
 import axios from 'axios';
 const { Option } = Select;
@@ -40,7 +40,7 @@ function VoluntInfo(props) {
     }, [params.id])
     const onProvinceChange = (value) => {
         selectCity.current.style.display = 'block'
-        let currentPro = porvince.filter(item => item.name === value)[0].city
+        let currentPro = province.filter(item => item.name === value)[0].city
         setCity(currentPro)
     }
     const onCityChange = (value) => {
@@ -149,7 +149,7 @@ function VoluntInfo(props) {
                                             allowClear
                                         >
                                             {
-                                                porvince.map(item =>
+                                                province.map(item =>
                                                     <Option key={item.name} value={item.name}>{item.name}</Option>
                                                 )
                                             }

@@ -17,20 +17,21 @@
     height: 60px;
 }
 .hospital_tab .ant-tabs-nav-wrap{
-    background-color: #fac9faec;
+    background-color: #fac9fa;
+    z-index: 10;
 }
 .hospital_tab .ant-tabs-tab{
     width: 240px;
     height: 70px;
     line-height: 70px;
-    background-color: #fac9faec !important;
+    background-color: #fac9fa !important;
     border: none !important;
-    /* border: 1px solid #fa8f99 !important; */
     margin: 0 !important;
 }
 .hospital_tab .ant-tabs-tab-active{
     border-bottom: none !important;
     background-color: #f7f0f7d8 !important;
+
 }
 .hospital_tab .ant-tabs-nav{
     margin: 0 !important;
