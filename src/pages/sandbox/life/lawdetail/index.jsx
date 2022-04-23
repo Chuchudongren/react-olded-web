@@ -55,7 +55,7 @@ function LawDetail(props) {
 
                         </div>
                     </div>
-                    <audio ref={audio} src={data.read} controls="controls" loop={true} hidden={true}>
+                    <audio ref={audio} src={data.readMp3} controls="controls" loop={true} hidden={true}>
                     </audio>
                 </div>
                 : <>123</>
