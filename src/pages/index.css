@@ -14,9 +14,9 @@
 .background_index {
     width: 100%;
     /* background-image: linear-gradient(to right top, #5cbab4, #54bbb5, #4cbcb5, #42bcb6, #37bdb6, #3ac1ba, #3ec5bd, #41c9c1, #53d1c9, #63d9d0, #71e1d8, #7fe9e0); */
-    background-image: url('http://127.0.0.1:8002/uploads/body/index/health/health_bg2.png');
+    background-image: url('http://127.0.0.1:8002/uploads/body/index/index_bg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 1020px;
+    background-size: 100%;
     background-position: cover;
 }
 .background_news{

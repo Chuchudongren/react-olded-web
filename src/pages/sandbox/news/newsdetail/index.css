@@ -43,7 +43,7 @@
     height: 80px;
     margin: 10px;
     border-radius: 50%;
-    background-color:  rgb(238, 83, 83);
+    background-color:  rgb(250, 71, 0);
 }
 .news_detail_icon-collection{
     margin: 1px 0px 0px 2px;
@@ -55,7 +55,7 @@
     height: 80px;
     margin: 10px;
     border-radius: 50%;
-    background-color:  rgb(238, 83, 83);
+    background-color:  rgb(250, 71, 0);
 }
 .news_detail_icon-pinglun{
     font-size: 50px;
@@ -75,7 +75,7 @@
     font-weight: 600;
     line-height: 1.5em;
     text-align: center;
-    color: rgb(175, 7, 7);
+    color: rgb(250, 71, 0);
     border-radius: 10px;
 
 }

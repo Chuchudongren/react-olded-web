@@ -15,14 +15,14 @@ export default function LifeSiderBar() {
         <div className="sidebar_nav">
             <div ref={anchor}>
                 <Anchor className="sidebar_anchor">
-                    <div className="sidebar_index_bg"></div><Link className="link" href="#life_index" title="|"></Link>
+                    {/* <div className="sidebar_index_bg"></div><Link className="link" href="#life_index" title="|"></Link> */}
                     <div className="sidebar_volunt_bg"></div><Link className="link" href="#life_volunt" title="|"></Link>
                     <div className="sidebar_law_bg"></div><Link className="link" href="#life_law" title="|"></Link>
                     <div className="sidebar_service_bg"></div><Link className="link" href="#life_service" title="|"></Link>
                 </Anchor>
             </div>
             <div className="sidebar_occlude"></div>
-            <div className="sidebar_demo"></div>
+            {/* <div className="sidebar_demo"></div> */}
             <div className="sidebar_demo1"></div>
         </div>
     )

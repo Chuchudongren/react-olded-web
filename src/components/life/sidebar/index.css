@@ -4,7 +4,7 @@
 .sidebar_anchor{
     position: relative;
     top: 50px;
-    left:15px;
+    left:25px;
     overflow: hidden;
 }
 
@@ -13,9 +13,9 @@
     bottom: 0;
     width: 100%;
     height: 1420px;
-    background-color: #fee7ea;
+    background-color: #f8ecedc7;
 }
-.sidebar_index_bg{
+/* .sidebar_index_bg{
     position: absolute;
     left: 60px;
     width: 180px;
@@ -24,13 +24,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
-}
+} */
 .sidebar_volunt_bg{
     position: absolute;
-    top: 100px;
+    top: 10px;
     left: 60px;
-    width: 240px;
-    height: 70px;
+    width: 210px;
+    height: 60px;
     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_title3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,9 +39,9 @@
 .sidebar_law_bg{
     position: absolute;
     left: 60px;
-    top: 185px;
-    width: 340px;
-    height: 75px;
+    top: 96px;
+    width: 290px;
+    height: 65px;
     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_title4.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,9 +50,9 @@
 .sidebar_service_bg{
     position: absolute;
     left: 60px;
-    top: 275px;
-    width: 340px;
-    height: 75px;
+    top: 185px;
+    width: 300px;
+    height: 65px;
     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_title5.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,7 +61,7 @@
 .link{
     width: 300px;
     height: 90px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
 }
 .ant-anchor-ink-ball{
@@ -71,23 +71,25 @@
     background-color: rgb(0, 79, 248) !important;
     z-index: 1000;
 }
-
+/* 
 .sidebar_demo{
+    z-index: 1;
     position: absolute;
     top: 90px;
-    left:240px;
+    left: 120px;
     width: 340px;
     height: 600px;
     background-image: url(http://127.0.0.1:8002/uploads/body/index/life/life_demo1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
-    opacity: 0.7;
+    opacity: 0.4;
     transform:rotateY(180deg);
-}
+
+} */
 .sidebar_demo1{
     position: absolute;
-    top: 1600px;
+    top: 1000px;
     left:0px;
     width: 504px;
     height: 1100px;

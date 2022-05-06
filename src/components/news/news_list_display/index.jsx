@@ -29,9 +29,6 @@ export default function NewsListDisplay(props) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.category, flash])
     useEffect(() => {
-
-    })
-    useEffect(() => {
         setNowData(data.slice((page - 1) * 3, page * 3))
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page, data])

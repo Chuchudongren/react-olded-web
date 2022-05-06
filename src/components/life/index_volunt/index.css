@@ -1,6 +1,6 @@
 .index_vlount_bg{
     width: 100%;
-    background-color: rgba(243, 243, 243, 0.637);
+    background-color: rgba(243, 243, 243, 0.925);
 }
 .index_vlount_today{
     width: 100%;
@@ -29,6 +29,7 @@
 
 }
 .index_vlount_today_item_info{
+    position: relative;
     float: left;
     height: 100%;
     width: 400px;
@@ -55,7 +56,7 @@
      text-overflow: ellipsis;
      display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
      /*! autoprefixer: ignore next */
--webkit-box-orient: vertical;
+    -webkit-box-orient: vertical;
      /* autoprefixer: on *//** 设置或检索伸缩盒对象的子元素的排列方式 **/
      -webkit-line-clamp: 1; /** 显示的行数 **/
      overflow: hidden; /** 隐藏超出的内容 **/
@@ -117,11 +118,13 @@
 
 .index_vlount_today_item_info button{
     float: left;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
     width: 250px;
     height: 50px;
-    margin: 4px 0  0  50px;
     font-size: 30px;
-    border: 1px solid rgb(199, 255, 87);
+    border: 1px solid red;
     border-radius: 10px;
 }
 .index_vlount_today_item_info button:hover{

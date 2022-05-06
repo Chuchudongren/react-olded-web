@@ -10,7 +10,7 @@ export default function IndexVolunt() {
     const showCall = () => {
         let i = 0;
         const timer = setInterval(() => {
-            i += 0.01
+            i += 0.02
             call_me.current.style.opacity = i
             if (i >= 1) {
                 clearInterval(timer)
@@ -68,8 +68,12 @@ export default function IndexVolunt() {
             </div>
             <div className="index_vlount_today_footer">
                 <button onClick={() => {
-                    token.isvolunt === '1' ? message.success('您已经是志愿者了') : token.isvolunt === undefined ? message.error('您还没有登录，请你先登录') : navigate('/life/volunt/info/-1')
-                    token.isvolunt === '0' ? document.getElementById('scrollTop').scrollIntoView(true) : <></>
+                    if (token.isvolunt === '1') message.success('您已经是志愿者了')
+                    else if (token.isvolunt === undefined) message.error('您还没有登录，请你先登录')
+                    else {
+                        navigate('/life/volunt/info/-1')
+                        document.getElementById('scrollTop').scrollIntoView(true)
+                    }
                 }}>我要成为志愿者</button>
                 <span onClick={showCall} className="need_help">我要求助</span>
                 <span ref={call_me} className="call_me">联系我们：18238671977</span>

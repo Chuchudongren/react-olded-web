@@ -29,9 +29,9 @@
 .game_index_bg{
     height: 600px;
     position: relative;
-    background-color: #a7adfd94;
+    /* background-color: #a7adfd94; */
 }
-.game_index_bg span {
+/* .game_index_bg span {
     position: absolute;
     font-size: 80px;
     width: 780px;
@@ -43,4 +43,4 @@
     top: 50%;
     margin: -100px  0 0 -390px;
     text-shadow: rgb(255, 17, 215) 3px 0 15px;
-}
+} */

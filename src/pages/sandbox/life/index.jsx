@@ -19,9 +19,9 @@ function Life(props) {
         <LifeSiderBar />
       </div>
       <div className="life_right">
-        <div id="life_index">
+        {/* <div id="life_index">
           <div className="life_index_title"><div></div></div>
-        </div>
+        </div> */}
         <div id="life_volunt"><IndexVolunt /></div>
         <div id="life_law"><IndexLaw /></div>
         <div id="life_service"><IndexService /></div>

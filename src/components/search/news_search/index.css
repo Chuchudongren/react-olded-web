@@ -1,6 +1,7 @@
 .news_search{
     float: right;
-    border: 2px solid rgba(241, 47, 47, 0.37);
+    /* border: 2px solid rgba(241, 47, 47, 0.37); */
+    border-top: 2px solid rgba(0,0,0,0);
     border-radius: 5px;
 }
 
@@ -20,6 +21,6 @@
     
 }
 .news_search div:hover{
-   color: blue;
+   color: rgb(250, 71, 0);
    cursor: pointer;
 }

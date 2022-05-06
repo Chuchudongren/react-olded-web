@@ -22,14 +22,14 @@
     height: 1350px;
     border-radius:10px;
     overflow: hidden;
-    background-image: linear-gradient(to bottom,#bbc3f8b7,rgba(198, 205, 250, 0.76),rgba(181, 190, 250, 0.815));
+    background-image: linear-gradient(to bottom,#e2e5f8b7,rgba(217, 221, 245, 0.76),#e8eef3b7);
 }
 /* 左侧菜单 */
 .hoard_menu{
     float: left;
     width: 250px;
     height: 100%;
-    background-image: linear-gradient(to bottom,rgb(158, 210, 255),rgba(205, 232, 255, 0.507),rgba(134, 198, 255, 0.747));
+    background-image: linear-gradient(to bottom,#e3e4ff,#e8eef3);
     border-radius: 10px;
     padding: 0;
     margin: 0;
@@ -52,7 +52,7 @@
     font-size: 40px;
     text-align: center;
     line-height: 80px;
-    background-image: linear-gradient(to bottom, #d8d1ff,#b8c1fd);
+    background-image: linear-gradient(to bottom, #c8e9e7,#f1f1f1);
 
 }
 .hoard_menu li:first-child:hover{
@@ -62,11 +62,11 @@
 }
 .hoard_menu li:hover{
     cursor: pointer;
-    color: red;
+    color: rgb(85, 31, 67);
     animation: hoverMenu 0.5s linear 10 alternate;
 }
 .hoard_menu .menu_active{
-    background-image: linear-gradient(to bottom, #EFADF5,#FFA9D2);
+    background-image: linear-gradient(to bottom, #e3e4ff,#fdbfdd);
 }
 .hoard_menu .menu_active:hover{
     cursor: pointer;
@@ -99,18 +99,18 @@
     font-size: 36px;
     margin: 10px 50px 0 0;
     line-height: 60px;
-    background-color: rgb(181, 220, 255);
+    background-color: #c8e9e7;
 }
 .hoard_nav span:hover{
     cursor: pointer;
-    background-color: aliceblue;
+    background-color: #e2faf8;
 }
 .hoard_nav .nav_active{
-    background-color: rgb(180, 244, 255);
+    background-color: #c8e9e7;
 }
 .hoard_nav .nav_active:hover{
     cursor:normal;
-    background-color: rgb(180, 244, 255);
+    background-color: #c8e9e7;
 }
 /* 右侧 */
 .hoard_list{
@@ -124,11 +124,11 @@
 }
 .hoard_list .ant-table{
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to bottom,rgba(157, 185, 247, 0.719),rgba(198, 205, 250, 0.76),rgba(122, 140, 255, 0.438));
+    background-image: linear-gradient(to bottom,#c8e9e7c0,rgba(209, 252, 243, 0.377),rgba(212, 223, 245, 0.719));
 }
 
 .hoard_list .ant-table-tbody tr .ant-table-cell-row-hover{
-    background-color: rgba(169, 180, 252, 0.425) !important;
+    background-color: rgba(170, 238, 173, 0.61) !important;
 }
 .hoard_list  .ant-table-thead tr th:nth-child(1){
     width: 400px !important;

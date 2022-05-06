@@ -71,7 +71,6 @@ export default function IndexLawForm(props) {
                             ]}
                         >
                             <Select
-                                defaultOpen
                                 style={{ width: '200px' }}
                                 placeholder="请选择"
                                 onChange={onProvinceChange}

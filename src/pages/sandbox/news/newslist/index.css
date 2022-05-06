@@ -27,11 +27,10 @@
     line-height: 90px;
 }
 .news_list_title span {
+    font-size: 58px;
     margin: 0 10px;
     font-weight: 800;
     color: rgb(250, 71, 0);
-    -webkit-text-stroke:1px #ffff00;
-    font-family:'Courier New', Courier, monospace;
 }
 .news_list_tab{
     width:100%;
@@ -45,15 +44,15 @@
     margin: 20px 40px 0 40px  ;
     text-align: center;
     line-height: 90px;
-    background-color: aqua;
-    border: 2px solid blue;
+    background-color: #f7e5b0;
+    border: 2px solid rgb(233, 178, 178);
     border-radius: 20px;
     line-height: 50px;
     font-size: 30px;
 }
 .news_list_tab .active{
-    background-color: rgb(255, 123, 0);
-    border: 2px solid rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 71, 0);
 }
 .ant-message-custom-content {
     font-size: 30px;

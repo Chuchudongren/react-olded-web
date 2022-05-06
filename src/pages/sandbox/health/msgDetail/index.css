@@ -116,7 +116,7 @@
 .msg_detail_intro{
     margin: 4px 0 0 0;
     height: 150px;
-    background-color: rgba(213, 219, 255, 0.527);
+    background-color: rgba(252, 252, 252, 0.527);
     border-radius:20px;
     padding:5px 10px;
     font-size: 26px;
@@ -124,7 +124,7 @@
 
 /* 正文 */
 .msg_detail_paragraph{
-    background-color: rgba(159, 236, 255, 0.849);
+    background-color: rgba(252, 252, 252, 0.527);
     height: 1400px;
     font-size: 26px;
     border-radius: 20px;

@@ -20,7 +20,7 @@ function HealthGame() {
       <section className="game_window">
         {currentGame === 0 && <>
           <div className="game_index_bg">
-            <span>请选择您要玩的游戏</span>
+            {/* <span>请选择您要玩的游戏</span> */}
           </div>
         </>}
         {currentGame === 1 && <QSGame1 />}

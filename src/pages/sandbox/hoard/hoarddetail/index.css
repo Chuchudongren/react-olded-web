@@ -17,7 +17,6 @@
 }
 .hoard_detail_title span{
     font-size: 50px;
-    background-color: rgb(233, 243, 255);
     border-radius:20px;
     line-height: 80px;
     padding: 20px;
@@ -263,7 +262,6 @@
     width: 100%;
     font-size: 26px;
     text-align: center;
-    background-color: rgb(253, 218, 244);
     padding: 10px 0;
     border-radius: 10px;
 }
@@ -290,7 +288,7 @@
 .hoard_detail_followtopic_content{
     margin: 20px 0 0 0;
     width: 100%;
-    background-color: rgb(206, 185, 255);
+    background-color: rgba(255, 255, 255, 0.582);
     border-radius: 20px;
     padding:20px 20px;
     overflow: hidden;
@@ -328,7 +326,7 @@
     font-size: 40px;
     margin: -80px 40px 0 0;
     border-radius: 10px;
-    background-color: rgb(43, 116, 253);
+    background-color: rgb(188, 160, 253);
     color: #fff;
 }
 
@@ -339,6 +337,9 @@
     padding: 5px 20px;
     border-top: 1px solid rgb(109, 109, 109);
     overflow: hidden;
+    border: 1px solid rgb(97, 99, 179);
+    border-radius:20px;
+    margin-bottom:10px;
 }
 .hoard_detail_comment_nickname{
     font-size: 24px;
@@ -360,7 +361,7 @@
     padding: 0 10px;
     border-radius: 5px;
     line-height: 40px;
-    background-color: aliceblue;
+    background-color: rgb(188, 205, 252);
     margin: 0 10px 20px 0;
 }
 .hoard_detail_comment_lookcomment svg{
@@ -376,7 +377,7 @@
     font-size: 20px;
     padding: 0 10px;
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: rgb(206, 185, 255);
     margin: 0 10px 20px 0;
 }
 
@@ -425,7 +426,7 @@
     height: 50px;
     font-size: 30px;
     line-height: 50px;
-    background-color: rgb(43, 116, 253);
+    background-color: rgb(206, 185, 255);
     color: #fff;
     border-radius: 10px;
     margin: 90px 0 0 0;
@@ -441,7 +442,7 @@
     float: right;
     width: 200px;
     height: 60px;
-    background-color: aliceblue;
+    background-color: rgb(206, 185, 255);
     font-size: 28px;
     line-height: 60px;
     text-align: center;
@@ -455,6 +456,7 @@
     background-color: #fff;
     padding: 5px 10px;
     border-radius: 10px;
+    border: 1px solid rgb(174, 174, 255);
     margin: 20px 0 0 0;
 }
 .hoard_detail_comment_textarea textarea{

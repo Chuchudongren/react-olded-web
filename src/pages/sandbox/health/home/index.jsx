@@ -15,7 +15,7 @@ function HealthHome(props) {
     return (
         <div className="health_home">
             <div className="health_home_jumbotron">
-                <img src="http://127.0.0.1:8003/pic/news/10.jpg" alt="" />
+                <img src="http://127.0.0.1:8003/pic/health/hospital/h1.jpg" alt="" />
             </div>
             <div className="health_home_infoCollect container">
                 <div className="health_game_first">
