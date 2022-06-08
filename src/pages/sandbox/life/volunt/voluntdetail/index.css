@@ -78,12 +78,12 @@
 .volunt_detail_collect svg{
     color: rgb(241, 241, 21) !important;
     font-size: 60px !important;
-    margin: 40px 20px 0 0 !important;
+    margin: 30px 20px 0 0 !important;
 }
 .volunt_detail_discollect svg{
     color: rgb(241, 241, 21) !important;
     font-size: 60px !important;
-    margin: 40px 20px 0 0 !important;
+    margin: 30px 20px 0 0 !important;
 }
 .volunt_detail_discollect svg path:first-child{
     fill: rgb(255, 255, 255);

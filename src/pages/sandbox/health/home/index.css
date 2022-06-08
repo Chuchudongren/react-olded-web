@@ -1,16 +1,12 @@
 .health_home{
-    height: 2450px;
-}
-.health_home_jumbotron img{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+    height: 1850px;
 }
 .health_home_infoCollect{
     display: flex;
     position: relative;
     height: 530px;
-    padding: 0;
+    padding:0;
+    margin-top: 50px;
     background-color: rgba(255, 255, 255, 0.822);
     border-radius: 20px;
 }

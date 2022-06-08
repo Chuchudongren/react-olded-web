@@ -49,9 +49,9 @@ function Hoard(props) {
     })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
-
   useEffect(() => {
     axios.post('/hoard/getTopicListByCate', qs.stringify({ cateid: props.cate })).then(res => {
+      console.log(res);
       setData(res.data.results)
     })
   }, [props.cate])

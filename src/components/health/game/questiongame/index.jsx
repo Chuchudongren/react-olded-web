@@ -76,7 +76,7 @@ export default function QSGame() {
                 <span>您的得分：{mark}</span>
             </header>
             <section className="qs_section">
-                <h1 ref={question}>提问:{currentQ !== null && typeof currentQ.question !== 'undefined' ? currentQ.question : '准备好请点击对号开始游戏'}</h1>
+                <h1 ref={question}>提问:{currentQ !== null && currentQ.question !== undefined ? currentQ.question : '准备好请点击对号开始游戏'}</h1>
                 <span ref={T} onClick={(e) => { checkQs(true) }} className="qs_section_true"><CheckOutlined /></span>
                 <span ref={F} onClick={(e) => { checkQs(false) }} className="qs_section_false"><CloseOutlined /></span>
             </section>

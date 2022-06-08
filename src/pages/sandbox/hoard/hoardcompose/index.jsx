@@ -34,7 +34,6 @@ export default function Add(props) {
             message.error('内容不能为空！')
         } else {
             if (params.topicid !== '-1') {
-                console.log(params.topicid);
                 axios.post('/hoard/updateTopic', qs.stringify({ userid: token.userid, content, title: title.current.value, topicid: params.topicid })).then(res => {
                     if (res.data.status === 200) {
                         notification.info({
@@ -49,6 +48,7 @@ export default function Add(props) {
                 })
             } else {
                 axios.post('/hoard/pushTopic', qs.stringify({ userid: token.userid, content, title: title.current.value, cateid: params.cateid })).then(res => {
+                    console.log(res);
                     if (res.data.status === 200) {
                         notification.info({
                             message: `通知: 提交成功!`,

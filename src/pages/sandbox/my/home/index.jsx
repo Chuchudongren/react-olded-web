@@ -143,7 +143,7 @@ export default function MyHome(props) {
                                 <span>性别:{props.data.gender}</span>
                             </Col>
                             <Col span={6}>
-                                <span>志愿者:{props.data.isvolunt === '1' ? '是' : '非'}</span>
+                                <span>志愿者:{props.data.isvolunt === 1 ? '是' : '非'}</span>
                             </Col>
                             <Col span={8}>
                                 <span>参加志愿活动：{props.data.voluntcount}</span>

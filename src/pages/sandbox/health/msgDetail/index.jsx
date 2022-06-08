@@ -53,7 +53,7 @@ export default function MsgDetail() {
                                 <span onClick={() => { setFont(0) }} className="font1"><FontColorsOutlined />-</span>
                             </div>
                             <div className="msg_detail_intro">简介:{data.intro}</div>
-                            <p ref={paragraph} className="msg_detail_paragraph">{data.content}</p>
+                            <div className="msg_detail_paragraph" ref={paragraph} dangerouslySetInnerHTML={{ __html: data.content }}></div>
                         </section>
                         : <></>
                 }

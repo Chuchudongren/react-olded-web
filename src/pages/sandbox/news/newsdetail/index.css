@@ -1,7 +1,9 @@
 .news_detail_bg{
     position: relative;
     width: 100%;
-    height: 1933px;
+    min-height: 1933px;
+    padding-bottom: 90px;
+    background-color: #efece7;
 }
 .news_detail_goback{
     height: 80px;
@@ -81,7 +83,7 @@
 }
 /* 点赞 收藏 评论 */
 .news_detail_info{
-    margin: 240px 0 0px 0;
+    margin: 280px 0 0px 0;
     font-size: 34px;
     font-weight: 600;
     line-height: 1.5em;

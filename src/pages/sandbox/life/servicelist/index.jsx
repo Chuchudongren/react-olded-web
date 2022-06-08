@@ -155,7 +155,7 @@ function ServiceList(props) {
           <button className="service_model_readbtn" onClick={() => { readTexA(currentTel) }}>语音播放</button>
           <div className="service_model_2dcode">
             <span>请手机微信扫描二维码-&gt;获取商家微信</span>
-            <img src="http://127.0.0.1:8003/pic/2dcode.jpg" alt="" />
+            <img src="http://127.0.0.1:8003/pic/life/service/shangjiaweixin.png" alt="" />
           </div>
         </Modal>
       </div>

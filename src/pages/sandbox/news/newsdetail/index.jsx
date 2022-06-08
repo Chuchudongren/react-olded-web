@@ -93,8 +93,7 @@ function NewsDetail(props) {
                 <div className="news_detail_info_comment"><div></div>{comments}</div>
             </div>
             <div className="news_detail_content">
-                <div className="news_detail_content_body">
-                    {newsData.content}
+                <div dangerouslySetInnerHTML={{ __html: newsData.content }} className="news_detail_content_body">
                 </div>
                 <div className="news_detail_content_footer">
                     <div className="news_detail_content_time">{newsData.pushtime}</div>
@@ -104,7 +103,7 @@ function NewsDetail(props) {
             <Drawer width="600" title="评论区" placement="right" onClose={onClose} visible={visible}>
                 <NewsComment newsid={params.newsid} />
             </Drawer>
-        </div>
+        </div >
     )
 }
 

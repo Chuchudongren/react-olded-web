@@ -63,7 +63,7 @@ function VlountDetail(props) {
         setIsModalVisible(true);
     };
     const handleOk = () => {
-        navigate('/life/volunt/info')
+        navigate('/life/volunt/info/-1')
         setIsModalVisible(false);
     };
     const handleCancel = () => {
@@ -105,7 +105,6 @@ function VlountDetail(props) {
                                 <li>开始时间：{data.begintime}</li>
                                 <li>结束时间：{data.finishtime}</li>
                                 <li>发起团队：{data.teamname}</li>
-                                <li>活动类型：{data.classification}</li>
                                 <li>参加人数：{data.peoplenumber}</li>
                             </ul>
                             <StarTwoTone key={isCollect} onClick={voluntcollect} className={isCollect ? "volunt_detail_collect" : "volunt_detail_discollect"} twoToneColor="#ccc" />

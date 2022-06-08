@@ -1,5 +1,5 @@
 .clinic_bg{
-    height: 2200px;
+    min-height: 600px;
     background-color: rgba(255, 255, 255, 0.486);
 }
 .clinic_main{
@@ -13,7 +13,6 @@
     rgb(183, 225, 241, 0.8),
     rgb(224, 163, 240, 0.8),
     rgb(228, 163, 179, 0.8));
-    
     border-radius: 20px;
 }
 .clinic_main .ant-steps{

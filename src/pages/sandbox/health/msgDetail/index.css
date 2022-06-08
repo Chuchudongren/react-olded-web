@@ -1,6 +1,8 @@
 .msg_detail_bg{
     position: relative;
-    height: 2000px;
+    min-height: 2000px;
+    background-color: #b1ccea;
+    padding-bottom: 20px;
 }
 .msg_detail_goback{
     position: absolute;
@@ -125,7 +127,7 @@
 /* 正文 */
 .msg_detail_paragraph{
     background-color: rgba(252, 252, 252, 0.527);
-    height: 1400px;
+    min-height: 1400px;
     font-size: 26px;
     border-radius: 20px;
     padding:10px 20px;

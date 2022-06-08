@@ -9,6 +9,7 @@ import styles from './index.module.css'
 
 function Header() {
   const token = qs.parse(localStorage.getItem('token'))
+  console.log(token);
   const navigate = useNavigate()
   return (
     <div className={styles.header}>

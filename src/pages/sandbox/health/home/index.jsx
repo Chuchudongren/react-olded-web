@@ -14,9 +14,6 @@ function HealthHome(props) {
     }, [])
     return (
         <div className="health_home">
-            <div className="health_home_jumbotron">
-                <img src="http://127.0.0.1:8003/pic/health/hospital/h1.jpg" alt="" />
-            </div>
             <div className="health_home_infoCollect container">
                 <div className="health_game_first">
                     <img src="http://127.0.0.1:8002/uploads/body/index/health/index_game.png" alt="" />
@@ -28,7 +25,7 @@ function HealthHome(props) {
                 </div>
                 <div className="health_game_third">
                     <img src="http://127.0.0.1:8002/uploads/body/index/health/index_game2.png" alt="" />
-                    <h2>小狗吃苹果</h2>
+                    <h2>吃苹果</h2>
                 </div>
                 <button onClick={() => {
                     navigate('/health/game')
